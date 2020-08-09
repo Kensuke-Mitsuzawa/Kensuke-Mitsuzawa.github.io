@@ -1,0 +1,13 @@
+{
+    "abstract": {
+        "title": "Kurzprofil",
+        "brief_title": "Data Scientist/Data engineer, der in Frankfurt am Main wohnt.",
+        "introduction": "Ziemlich Spezialisierung auf NLP (Natural Language Processing) mit Kentnisse des linguistischen Fachs.",
+        "work_experience": "Meine Berufserfahrung sind auf Data-Analysis für Nutzerdaten des Videospiels, Künstlich-Intelligenz und Machine-Leaning ziemlich für NLP Projekten sowie Text-summarization, Document-clustering/classification, Information-retrieval etc. Nicht nur Data-Analysis, sondern auch Erfahrungen auf System-Entwickelungen. Dafür ist es möglich, der Entwurf des Hardwares, DB-Spezifikations, Test-Environment sowie Docker oder Continuous-integrations zu planen. Im Bereich Systemadministration habe ich Erfahrung mit der Migration von Geschäftssystemen für ein kleines Team.",
+        "work_environment": "Ich habe +3 Jahre Berufserfahrung in einem internationalen Team. Dafür kann ich auf Englisch mit anderen Mitgliedern des Teams kommunizieren.",
+        "research_preference": "Aus Forschungssicht sind meine Interessen auf dem Information-Extraction aus der Text-Daten. Das ist weil, ich mich bisher mehr 5 Jahren auf einem Projekt mit dem Information-Extraction beschäftigt habe. Das Projekt ist für eine Meinungsplattform.",
+        "research_experience": "Mein Theme der Forschung war während meinem Master ein automatischen Fehlerkorrektur von englischem Text, der Klassifizierung von Dokumenten für Volkserzählungen und ein regelbasierten Übersetzung der Gebärdensprache auf Japanisch.",
+        "end_sentence": "Meine Hauptprogramming-Sprache ist Python.",
+        "notation": ""
+    }
+}
