@@ -1,11 +1,9 @@
 <template>
   <v-app-bar dark app clipped-left>
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
     <v-toolbar-title>
       <v-btn to="./"><v-icon>fas fa-home</v-icon></v-btn>
     </v-toolbar-title>
-    <v-spacer></v-spacer>
+    <v-spacer class="hidden-sm-and-down"></v-spacer>
 
     <v-btn class="hidden-sm-and-down" to="/projects">Projects</v-btn>
     <v-btn class="hidden-md-and-up" to="/projects">

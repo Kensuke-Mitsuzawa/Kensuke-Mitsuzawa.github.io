@@ -7,11 +7,10 @@
         <v-flex>
           <v-row align="center" justify="center">
             <v-col cols="auto">
-              <img
-                src="https://kensuke-mitsuzawa.github.io/images/profile_photo.jpg"
-                width="500"
-                height="600"
-              />
+              <v-img
+              max-width="500"
+              max-height="600"
+              src="https://github.com/Kensuke-Mitsuzawa/Kensuke-Mitsuzawa.github.io/blob/master/images/profile_photo.jpg?raw=true"></v-img>
             </v-col>
           </v-row>
           <v-row align="center" justify="center">

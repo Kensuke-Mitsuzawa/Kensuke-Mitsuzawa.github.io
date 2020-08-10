@@ -7,13 +7,13 @@
         <v-flex text-center lg4 sm12 xs12>
           <div id="section-service">
             <p
-              class="text-h3 text-center display-1 text--primary text-decoration-underline"
+              class="text-h4 text-center display-1 text--primary text-decoration-underline"
             >Web Service</p>
           </div>
           <v-card color="white" max-width="1500" elevation="0">
             <v-row align="center" justify="center">
               <v-col cols="auto">
-                <p class="display-1 text--primary">MuSpNa</p>
+                <p class="text-h5 display-1 text--primary">MuSpNa</p>
                 <a href="https://www.mu-sp-na.tk/">URL</a>
                 <div
                   class="text--primary"
@@ -25,11 +25,11 @@
             </v-row>
             <v-row align="center" justify="center">
               <v-col cols="auto">
-                <img
-                  height="400"
-                  width="600"
-                  src="https://user-images.githubusercontent.com/1772712/89827543-08d4f300-db58-11ea-9240-d438f41025e2.gif"
-                />
+                <v-img
+                max-height="400"
+                max-width="600"
+                src="https://user-images.githubusercontent.com/1772712/89827543-08d4f300-db58-11ea-9240-d438f41025e2.gif">
+                </v-img>
               </v-col>
             </v-row>
             <v-row align="center" justify="center">
@@ -58,12 +58,12 @@
           </v-card>
           <div id="section-python">
             <p
-              class="text-h3 text-center display-1 text--primary text-decoration-underline"
+              class="text-h4 text-center display-1 text--primary text-decoration-underline"
             >Python packages</p>
           </div>
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
-              <p class="display-1 text--primary">JapaneseTokenizer</p>
+              <p class="text-h5 display-1 text--primary">JapaneseTokenizer</p>
               <div
                 class="text--primary"
               >A package to provide an easy interface for various japanese tokenizers.</div>
@@ -75,7 +75,7 @@
           </v-card>
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
-              <p class="display-1 text--primary">DocumentFeatureSelection</p>
+              <p class="text-h5 display-1 text--primary">DocumentFeatureSelection</p>
               <div
                 class="text--primary"
               >A Package to compute weight on features. This is crucial for classical NLP.</div>
@@ -87,7 +87,7 @@
           </v-card>
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
-              <p class="display-1 text--primary">word2vec-wikification-py</p>
+              <p class="text-h5 display-1 text--primary">word2vec-wikification-py</p>
               <div class="text--primary">
                 A package to run wikification on text data.
                 <br />The wikification is an operation to find proper entities that are described in texts.
@@ -100,7 +100,7 @@
           </v-card>
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
-              <p class="display-1 text--primary">knp-utils</p>
+              <p class="text-h5 display-1 text--primary">knp-utils</p>
               <div
                 class="text--primary"
               >A support package to call KNP that is a powerful japanese dependency parser.</div>
@@ -113,7 +113,7 @@
           <v-card color="white" max-width="1500" elevation="0">
             <v-row align="center" justify="center">
               <v-col cols="auto">
-                <p class="display-1 text--primary">flexible_clustering_tree</p>
+                <p class="text-h5 display-1 text--primary">flexible_clustering_tree</p>
                 <div class="text--primary">A package to design and run recursive clusterings.</div>
                 <p>
                   <a href="https://github.com/Kensuke-Mitsuzawa/flexible_clustering_tree">On Github</a>&nbsp;
@@ -122,15 +122,16 @@
               </v-col>
             </v-row>
             <v-row align="center" justify="center">
-              <p>This is one example of clustering. The input dataset is 20-newsdataset.</p>
+              <p>This is one example of clustering.</p>
+              <p>The input dataset is 20-newsdataset.</p>
             </v-row>
             <v-row align="center" justify="center">
               <v-col cols="auto">
-                <img
-                  height="200"
-                  width="300"
+                <v-img
+                  max-height="200"
+                  max-width="300"
                   src="https://user-images.githubusercontent.com/1772712/47308081-9980cd00-d66b-11e8-98c0-a275db021cd7.gif"
-                />
+                ></v-img>
               </v-col>
             </v-row>
           </v-card>
