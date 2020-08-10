@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.css';
 import vuetify from './plugins/vuetify';
 import vueHeadful from 'vue-headful';
 import VueI18n from 'vue-i18n';

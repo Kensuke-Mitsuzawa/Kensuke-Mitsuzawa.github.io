@@ -3,7 +3,7 @@
     <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
     <v-toolbar-title>
-      <v-btn to="/"><v-icon>fas fa-home</v-icon></v-btn>
+      <v-btn to="./"><v-icon>fas fa-home</v-icon></v-btn>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
@@ -17,8 +17,8 @@
       <v-icon>fas fa-palette</v-icon>
     </v-btn>
 
-    <v-btn class="hidden-sm-and-down">Publications</v-btn>
-    <v-btn class="hidden-md-and-up">
+    <v-btn class="hidden-sm-and-down" to="/publications">Publications</v-btn>
+    <v-btn class="hidden-md-and-up" to="/publications">
       <v-icon>fas fa-newspaper</v-icon>
     </v-btn>
   </v-app-bar>

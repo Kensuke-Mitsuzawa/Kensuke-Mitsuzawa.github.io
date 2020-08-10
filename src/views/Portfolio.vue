@@ -20,6 +20,15 @@
             >A web application to help a language learner develop reading abilities.</div>
           </v-col>
           </v-row>
+                    <v-row align="center" justify="center">
+            <v-col cols="auto">
+              <img
+                height="400"
+                width="500"
+                src="https://user-images.githubusercontent.com/1772712/89775801-d6e87000-db08-11ea-8df3-439dba8aa0d1.gif"
+              />
+            </v-col>
+          </v-row>
           <v-row align="center" justify="center">
             <v-col>
               <p class="text-h5 text-center text-decoration-underline">Technology stacks for MuSpNa</p>
