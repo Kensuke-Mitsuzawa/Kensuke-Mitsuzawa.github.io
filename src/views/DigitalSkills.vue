@@ -2,9 +2,10 @@
   <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
     <p class="text-h3 text-center text-decoration-underline">Digital skills</p>
     <!-- Programming language -->
-    <v-card class="mx-auto" color="white" max-width="1400" flat=false elevation="0">
+    <v-card class="mx-auto" color="white" max-width="1400" flat="false" elevation="0">
       <p class="text-h4 text-center">
-        <v-icon>fas fa-laptop</v-icon>&nbsp;programming Languages
+        <v-icon>fas fa-laptop</v-icon>
+        &nbsp;{{ $t('digital_skills.title_programming') }}
       </p>
       <div id="progress-python">
         <v-progress-linear
@@ -15,10 +16,22 @@
         >
           <div>Python</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <v-expansion-panels flat="true">
           <v-expansion-panel>
-            <v-expansion-panel-header>→ skillsets</v-expansion-panel-header>
-            <v-expansion-panel-content>Lorem</v-expansion-panel-content>
+            <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <p>Packaging,<br>
+              Web app&nbsp;(Flask, Django),<br>
+              natural language processing&nbsp;(for Japanese, English, German),<br>
+              machine learning&nbsp;(scikit-learn etc.),<br>
+              deep learning&nbsp;(chainer, tensorflow, Theano, pytorch),<br>
+              Data analysis script&nbsp;(Jupyter notebook),<br>
+              Data visualization,<br>
+              Code optimization&nbsp;(Cython)<br>
+              Tsunami Simulation&nbsp;(Clawpack-5)
+            </p>
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -32,10 +45,19 @@
         >
           <div>R</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <v-expansion-panels flat="true">
           <v-expansion-panel>
-            <v-expansion-panel-header>→ skillsets</v-expansion-panel-header>
-            <v-expansion-panel-content>Lorem</v-expansion-panel-content>
+            <v-expansion-panel-header>
+              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+              </v-expansion-panel-header>
+            <v-expansion-panel-content><p>
+              data analysis script,<br>
+              reporting system(Rmd),<br>
+              Webapp(shiny),<br>
+              Data visualization,<br>
+              machine learning
+            </p>
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -49,10 +71,12 @@
         >
           <div>Bash</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <v-expansion-panels flat="true">
           <v-expansion-panel>
-            <v-expansion-panel-header>→ skillsets</v-expansion-panel-header>
-            <v-expansion-panel-content>Lorem</v-expansion-panel-content>
+            <v-expansion-panel-header>
+              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>batch script</v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -66,10 +90,16 @@
         >
           <div>Javascript</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <v-expansion-panels flat="true">
           <v-expansion-panel>
-            <v-expansion-panel-header>→ skillsets</v-expansion-panel-header>
-            <v-expansion-panel-content>Lorem</v-expansion-panel-content>
+            <v-expansion-panel-header>
+              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              Data visualization(D3.js, C3.js),<br>
+              Jquery,<br>
+              Vue.JS&nbsp;(this page is compiled with Vue.js)
+              </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -83,10 +113,14 @@
         >
           <div>C/C++</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <v-expansion-panels flat="true">
           <v-expansion-panel>
-            <v-expansion-panel-header>→ skillsets</v-expansion-panel-header>
-            <v-expansion-panel-content>Lorem</v-expansion-panel-content>
+            <v-expansion-panel-header>
+              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content><p>
+              implementation of mathmatical operation for basic algorithm
+              </p></v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -119,8 +153,7 @@
       <ul style="list-style: none;">
         <li>continuous integration tool: Jenkins, Circle-ci, Travis</li>
         <li>Development tools: Pycharm, vim, git, Docker, Apache</li>
-        <li>
-          Business tools: MS office, Google office tools, Atlassian confluence</li>
+        <li>Business tools: MS office, Google office tools, Atlassian confluence</li>
         <li>Communication tools: Slack</li>
       </ul>
     </v-card>

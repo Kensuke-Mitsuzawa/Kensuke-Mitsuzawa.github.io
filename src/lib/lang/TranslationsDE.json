@@ -9,5 +9,31 @@
         "research_experience": "Mein Theme der Forschung war während meinem Master ein automatischen Fehlerkorrektur von englischem Text, der Klassifizierung von Dokumenten für Volkserzählungen und ein regelbasierten Übersetzung der Gebärdensprache auf Japanisch.",
         "end_sentence": "Meine Hauptprogramming-Sprache ist Python.",
         "notation": ""
+    },
+    "digital_skills": {
+        "title_programming": "Programmiersprache"
+    },
+    "education": {
+        "title": "Ausbildungen",
+        "master_title": "M.E. in Computational Linguistics",
+        "master_school": "Nara Institute of science and Technology",
+        "bachelor_title": "B.A. in Foreign Studies (Persian studies)",
+        "bachelor_school": "Osaka University"
+    },
+    "languages": {
+        "title": "Sprachen",
+        "japanese_name": "Japanisch",
+        "japanese_exp": "Native",
+        "english_name": "Englisch",
+        "english_exp": "Täglich für Business",
+        "german_name": "Deutsch",
+        "german_exp": "ungefär B2",
+        "french_name": "Französisch",
+        "french_exp": "A2",
+        "persian_name": "Persisch",
+        "persian_exp": "A1"
+    },
+    "work_experience": {
+        "title": "berufliche Erfahrungen"
     }
 }

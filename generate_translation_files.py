@@ -24,11 +24,11 @@ def main(path_source_excel: str, path_target_dir: str):
     df_data = df_data.replace(np.nan, '', regex=True)
 
     seq_en_records = df_data[['section', 'key', 'en']].to_dict('record')
-    seq_jp_records = df_data[['section', 'key', 'jp']].to_dict('record')
+    seq_jp_records = df_data[['section', 'key', 'ja']].to_dict('record')
     seq_de_records = df_data[['section', 'key', 'de']].to_dict('record')
 
     output_object_en = convert_data_structure(seq_en_records, 'en')
-    output_object_jp = convert_data_structure(seq_jp_records, 'jp')
+    output_object_jp = convert_data_structure(seq_jp_records, 'ja')
     output_object_de = convert_data_structure(seq_de_records, 'de')
     with open(str(pathlib.Path(path_target_dir).joinpath('TranslationsEN.json')), 'w') as f:
         f.write(json.dumps(output_object_en, ensure_ascii=False, indent=4))

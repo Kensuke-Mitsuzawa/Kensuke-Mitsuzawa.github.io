@@ -20,9 +20,20 @@
 
     </v-app-bar>
     <v-main>
+      <v-layout text-xs-center px-3 py-3 row wrap>
+      <v-flex>
+      <img src="https://kensuke-mitsuzawa.github.io/images/profile_photo.jpg" width="500" height="600">
+      </v-flex>
+      </v-layout>
+      <button @click="changeLocaleToEn">
        <country-flag country='gb' size='normal'/>
+       </button>
+       <button @click="changeLocaleToJa">
        <country-flag country='jp' size='normal'/>
+       </button>
+       <button @click="changeLocaleToDe">
        <country-flag country='de' size='normal'/>
+       </button>
        <AbstractSection></AbstractSection>
        <v-divider></v-divider>
        <DigitalSkills></DigitalSkills>
@@ -72,6 +83,16 @@ export default {
       this.loading = false;
     }, 1000);
   },
-  methods: {},
+  methods: {
+    changeLocaleToJa: function() {
+      this.$i18n.locale = 'jp';
+    },
+    changeLocaleToEn: function() {
+      this.$i18n.locale = 'en';
+    },
+    changeLocaleToDe: function() {
+      this.$i18n.locale = 'de';
+    },
+  },
 };
 </script>
