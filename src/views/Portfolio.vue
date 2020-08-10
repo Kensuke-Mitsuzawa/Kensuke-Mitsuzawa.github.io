@@ -27,8 +27,8 @@
               <v-col cols="auto">
                 <img
                   height="400"
-                  width="500"
-                  src="https://user-images.githubusercontent.com/1772712/89775801-d6e87000-db08-11ea-8df3-439dba8aa0d1.gif"
+                  width="600"
+                  src="https://user-images.githubusercontent.com/1772712/89827543-08d4f300-db58-11ea-9240-d438f41025e2.gif"
                 />
               </v-col>
             </v-row>
