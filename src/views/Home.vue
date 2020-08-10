@@ -1,24 +1,7 @@
 <template>
   <v-app>
     <vue-headful title="CV Kensuke Mitsuzawa" description=" " />
-    <v-navigation-drawer app v-model="drawer" clipped>
-    </v-navigation-drawer>
-    <v-app-bar dark app clipped-left>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title><v-icon>fas fa-home</v-icon></v-toolbar-title>
-      <v-spacer></v-spacer>
-
-      <v-btn class="hidden-sm-and-down">Projects</v-btn>
-      <v-btn class="hidden-md-and-up"><v-icon>fas fa-briefcase</v-icon></v-btn>
-
-      <v-btn class="hidden-sm-and-down">Portfilo</v-btn>
-      <v-btn class="hidden-md-and-up"><v-icon>fas fa-palette</v-icon></v-btn>
-
-      <v-btn class="hidden-sm-and-down">Publications</v-btn>
-      <v-btn class="hidden-md-and-up"><v-icon>fas fa-newspaper</v-icon></v-btn>
-
-    </v-app-bar>
+    <HeaderBar></HeaderBar>
     <v-main>
       <v-layout text-xs-center px-3 py-3 row wrap>
       <v-flex>
@@ -58,6 +41,7 @@ import Languages from '@/views/Languages';
 import Education from '@/views/Education';
 import WorkExperience from '@/views/WorkExperience';
 import Contact from '@/views/Contact';
+import HeaderBar from '@/views/HeaderBar';
 
 export default {
   name: 'App',
@@ -68,6 +52,7 @@ export default {
     Education,
     WorkExperience,
     Contact,
+    HeaderBar,
   },
   data() {
     return {
