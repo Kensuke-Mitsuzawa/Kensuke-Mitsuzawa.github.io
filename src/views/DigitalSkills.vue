@@ -21,7 +21,7 @@
             <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
-              <p>Packaging,<br>
+              <p class="text-center">Packaging,<br>
               Web app&nbsp;(Flask, Django),<br>
               natural language processing&nbsp;(for Japanese, English, German),<br>
               machine learning&nbsp;(scikit-learn etc.),<br>
@@ -50,7 +50,8 @@
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
               </v-expansion-panel-header>
-            <v-expansion-panel-content><p>
+            <v-expansion-panel-content>
+              <p class="text-center">
               data analysis script,<br>
               reporting system(Rmd),<br>
               Webapp(shiny),<br>
@@ -76,7 +77,8 @@
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
             </v-expansion-panel-header>
-            <v-expansion-panel-content>batch script</v-expansion-panel-content>
+            <v-expansion-panel-content>
+              <p class="text-center">batch script</p></v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
@@ -96,9 +98,11 @@
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
+              <p class="text-center">
               Data visualization(D3.js, C3.js),<br>
               Jquery,<br>
               Vue.JS&nbsp;(this page is compiled with Vue.js)
+              </p>
               </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -118,7 +122,8 @@
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
             </v-expansion-panel-header>
-            <v-expansion-panel-content><p>
+            <v-expansion-panel-content>
+              <p class="text-center">
               implementation of mathmatical operation for basic algorithm
               </p></v-expansion-panel-content>
           </v-expansion-panel>
@@ -130,32 +135,34 @@
       <p class="text-h4 text-center">
         <v-icon>fas fa-database</v-icon>&nbsp;databases
       </p>
-      <p>MySQL, Postgresql, Redis, SQLite3, MongoDB, ElasticSearch</p>
+      <p class="text-center">MySQL, Postgresql, Redis, SQLite3, MongoDB, ElasticSearch</p>
     </v-card>
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
       <p class="text-h4 text-center">
         <v-icon>fas fa-cloud</v-icon>&nbsp;cloud computings
       </p>
-      <p>AWS, GCP, Azure</p>
+      <p class="text-center">AWS, GCP, Azure</p>
     </v-card>
 
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
       <p class="text-h4 text-center">
         <v-icon>fas fa-desktop</v-icon>&nbsp;OS
       </p>
-      <p>Linux, MacOS, Windows</p>
+      <p class="text-center">Linux, MacOS, Windows</p>
     </v-card>
 
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
       <p class="text-h4 text-center">
         <v-icon>fas fa-toolbox</v-icon>&nbsp;other tools
       </p>
+      <div class="text-center">
       <ul style="list-style: none;">
         <li>continuous integration tool: Jenkins, Circle-ci, Travis</li>
         <li>Development tools: Pycharm, vim, git, Docker, Apache</li>
         <li>Business tools: MS office, Google office tools, Atlassian confluence</li>
         <li>Communication tools: Slack</li>
       </ul>
+      </div>
     </v-card>
   </v-card>
 </template>

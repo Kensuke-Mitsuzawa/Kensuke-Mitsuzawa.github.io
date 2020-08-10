@@ -7,8 +7,8 @@
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
-    <v-btn class="hidden-sm-and-down">Projects</v-btn>
-    <v-btn class="hidden-md-and-up">
+    <v-btn class="hidden-sm-and-down" to="/projects">Projects</v-btn>
+    <v-btn class="hidden-md-and-up" to="/projects">
       <v-icon>fas fa-briefcase</v-icon>
     </v-btn>
 

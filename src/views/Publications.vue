@@ -4,7 +4,7 @@
     <HeaderBar></HeaderBar>
     <v-main>
       <v-layout justify-center align-center px-3 py-3 row wrap>
-        <v-flex lg4 sm12 xs12>
+        <v-flex text-center lg4 sm12 xs12>
           <div id="international">
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">

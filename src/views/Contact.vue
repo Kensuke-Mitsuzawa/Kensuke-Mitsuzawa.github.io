@@ -6,12 +6,12 @@
           <p class="text-h3 text-center">
             <v-icon large="true">fas fa-envelope-open-text</v-icon>&nbsp;Contact
           </p>
-          <div id="contact-email">
+          <div class="text-center" id="contact-email">
             <p class="text-center text-h4">email</p>
             <p>kensuke.mit xx gmail.com</p>
             <p>xx = at_mark</p>
           </div>
-          <div id="contact-others">
+          <div id="contact-others" class="text-center">
             <p class="text-center text-h4">Others</p>
             <p>
               <a
