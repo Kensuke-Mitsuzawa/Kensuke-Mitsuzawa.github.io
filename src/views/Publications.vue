@@ -5,11 +5,12 @@
     <v-main>
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
+          <p class="text-h4 hidden-md-and-up">Publications</p>
           <div id="international">
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">
+                  <p class="text-h5 text--primary">
                     <a
                       href="https://dl.acm.org/doi/10.1145/3282373.3282405"
                     >Clause-level Negative-opinion Analysis for Classifying Reviews on Multiple Domains.</a>
@@ -26,7 +27,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">
+                  <p class="text-h5 text--primary">
                     <a
                       href="http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-Novel%20Incentives_Proceedings.pdf#page=16"
                     >FKC Corpus: a Japanese Corpus from New Opinion Survey Service.</a>
@@ -42,7 +43,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">
+                  <p class="text-h5 text--primary">
                     <a
                       href="http://www.aclweb.org/anthology/W13-3604.pdf"
                     >NAIST at 2013 CoNLL Shared Task Grammatical Error Correction.</a>
@@ -62,7 +63,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">CRFを用いた複数ドメインの消費者投稿文におけるネガティブ感情分類</p>
+                  <p class="text-h5 text--primary">CRFを用いた複数ドメインの消費者投稿文におけるネガティブ感情分類</p>
                   <p>
                     秋山 和寛,
                     <u>三澤 賢祐</u>, 成田 和弥，熊本 忠彦，灘本 明代
@@ -75,7 +76,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">意見分析に適した意見タグ獲得改善への取り組み</p>
+                  <p class="text-h5 text--primary">意見分析に適した意見タグ獲得改善への取り組み</p>
                   <p>
                     <u>三澤 賢佑</u>, 成田和弥, 伊藤友博, 柴田知秀, 河原大輔, 黒橋禎夫 (京大/JST)
                   </p>
@@ -87,7 +88,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">CRFを用いたレビューにおける節単位毎の感情推定</p>
+                  <p class="text-h5 text--primary">CRFを用いたレビューにおける節単位毎の感情推定</p>
                   <p>
                     秋山 和寛,
                     <u>三澤 賢祐</u>, 成田 和弥，熊本 忠彦，灘本 明代
@@ -100,7 +101,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">定量調査のための意見調査コーパス構築への取り組み</p>
+                  <p class="text-h5 text--primary">定量調査のための意見調査コーパス構築への取り組み</p>
                   <p>
                     <u>三澤 賢佑</u>, 成田和弥, 田内真惟人, 中島正成, 黒橋禎夫
                   </p>
@@ -112,7 +113,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">社内データに基づくイノベータ人財のピックアップ</p>
+                  <p class="text-h5 text--primary">社内データに基づくイノベータ人財のピックアップ</p>
                   <p>
                     成田和弥, 田内真惟人, <u>三澤賢祐</u>, 中島正成
                   </p>
@@ -124,7 +125,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">ネガティブ評判情報に特化したコーパスの構築と分析</p>
+                  <p class="text-h5 text--primary">ネガティブ評判情報に特化したコーパスの構築と分析</p>
                   <p>
                     <u>三澤賢祐</u>, 田内真惟人, Mathieu Domoulin, 中島正成, 水本智也
                   </p>
@@ -136,7 +137,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">意見投稿プラットフォームにおける意見クラスタリングの試み</p>
+                  <p class="text-h5 text--primary">意見投稿プラットフォームにおける意見クラスタリングの試み</p>
                   <p>
                     <u>三澤賢祐</u>, 田内真惟人, Mathieu Domoulin, 中島正成, 水本智也
                   </p>
@@ -148,7 +149,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">Twitterを利用した日本語感情表現辞書の自動構築</p>
+                  <p class="text-h5 text--primary">Twitterを利用した日本語感情表現辞書の自動構築</p>
                   <p>
                     池田可奈子（首都大）, <u>三澤賢祐</u>
                   </p>
@@ -160,7 +161,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">異言語資源を利用したモチーフラベルの自動推定</p>
+                  <p class="text-h5 text--primary">異言語資源を利用したモチーフラベルの自動推定</p>
                   <p>
                     <u>三澤賢祐</u>, 松本裕治
                   </p>
@@ -172,7 +173,7 @@
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
-                  <p class="display-1 text--primary">格構造に注目した日本語-日本語手話の並び替えと述語項構造に注目した語義曖昧性解消</p>
+                  <p class="text-h5 text--primary">格構造に注目した日本語-日本語手話の並び替えと述語項構造に注目した語義曖昧性解消</p>
                   <p>
                     <u>三澤賢祐</u>, 酒井啓道, 吉川友也, 水本智也, 松本裕治
                   </p>

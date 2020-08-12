@@ -10,6 +10,7 @@ import VueI18n from 'vue-i18n';
 import CountryFlag from 'vue-country-flag';
 import {data} from '@/lib/lang/index.js';
 import '@fortawesome/fontawesome-free/css/all.css';
+import VueAnalytics from 'vue-analytics';
 
 Vue.component('vue-headful', vueHeadful);
 Vue.component('country-flag', CountryFlag);
@@ -23,6 +24,11 @@ const i18n = new VueI18n({
 
 Vue.config.productionTip = false;
 Vue.use(Vuetify);
+
+Vue.use(VueAnalytics, {
+  id: 'UA-59842206-2',
+  router,
+});
 
 new Vue({
   i18n: i18n,

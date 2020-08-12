@@ -11,17 +11,17 @@
         "notation": ""
     },
     "digital_skills": {
-        "title_programming": "programming languages"
+        "title_programming": "プログラミング言語"
     },
     "education": {
-        "title": "Education",
+        "title": "学歴",
         "master_title": "修士 / 計算機言語学",
         "master_school": "奈良先端科学技術大学院大学",
         "bachelor_title": "学士 / 外国語",
         "bachelor_school": "大阪大学"
     },
     "languages": {
-        "title": "Languages",
+        "title": "語学",
         "japanese_name": "日本語",
         "japanese_exp": "母語",
         "english_name": "英語",
@@ -34,6 +34,6 @@
         "persian_exp": "A1"
     },
     "work_experience": {
-        "title": "Work experience"
+        "title": "職歴"
     }
 }

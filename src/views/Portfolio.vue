@@ -5,6 +5,7 @@
     <v-main>
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
+          <p class="text-h4 hidden-md-and-up">Portfolios</p>
           <div id="section-service">
             <p
               class="text-h4 text-center display-1 text--primary text-decoration-underline"
@@ -19,7 +20,7 @@
                   class="text--primary"
                 >
                 <p>A web application to help a language learner develop reading abilities.</p>
-                <p>Language learners could understand foreign texts with supports of translations and grammatical hints.</p>
+                <p>Language learners could understand foreign texts with the supports of translations and grammatical hints.</p>
                 </div>
               </v-col>
             </v-row>
@@ -38,7 +39,7 @@
                   <v-expansion-panel>
                     <v-expansion-panel-header>
                       <p class="text-center">
-                        <v-icon>far fa-hand-point-right</v-icon>&nbsp;Technology stacks for MuSpNa
+                        <v-icon>far fa-hand-point-right</v-icon>&nbsp;Technology stack for MuSpNa
                       </p>
                     </v-expansion-panel-header>
                     <v-expansion-panel-content>
@@ -47,7 +48,7 @@
                       <p>ECS, AWS lambda, S3, Elastic Search.</p>
                       <p>Source codes for information extraction are full-scratch.</p>
                       <p class="text-h6 text-center">[Webapp backend]</p>
-                      <p>AWS lambda, S3 and DynamoDB.</p>
+                      <p>Flask, AWS lambda, S3 and DynamoDB.</p>
                       <p class="text-h6 text-center">[Frontend]</p>
                       <p>Vue.js</p>
                     </v-expansion-panel-content>

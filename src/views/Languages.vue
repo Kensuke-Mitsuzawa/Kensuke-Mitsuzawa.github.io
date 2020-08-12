@@ -1,7 +1,7 @@
 <template>
   <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
     <p class="text-h3 text-center">
-      <v-icon large="true">fas fa-language</v-icon>&nbsp;{{ $t('languages.title') }}
+      <v-icon large=true>fas fa-language</v-icon>&nbsp;{{ $t('languages.title') }}
     </p>
     <v-layout text-xs-center px-3 py-3 row wrap>
       <v-flex text-center lg4 sm12 xs12>
@@ -33,7 +33,7 @@
         </v-flex>
 
         <v-flex text-center lg4 sm12 xs12>
-          <v-progress-circular :value="30" :width="20" size="150" color="indigo darken-2">
+          <v-progress-circular :value="20" :width="20" size="150" color="indigo darken-2">
             {{ $t('languages.persian_name') }}
             <br />({{ $t('languages.persian_exp') }})
           </v-progress-circular>

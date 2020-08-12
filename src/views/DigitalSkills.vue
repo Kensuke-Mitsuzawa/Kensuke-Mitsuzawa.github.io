@@ -16,7 +16,7 @@
         >
           <div>Python</div>
         </v-progress-linear>
-        <v-expansion-panels flat="true">
+        <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
             </v-expansion-panel-header>
@@ -45,7 +45,7 @@
         >
           <div>R</div>
         </v-progress-linear>
-        <v-expansion-panels flat="true">
+        <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
@@ -72,7 +72,7 @@
         >
           <div>Bash</div>
         </v-progress-linear>
-        <v-expansion-panels flat="true">
+        <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
@@ -92,7 +92,7 @@
         >
           <div>Javascript</div>
         </v-progress-linear>
-        <v-expansion-panels flat="true">
+        <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
@@ -117,7 +117,7 @@
         >
           <div>C/C++</div>
         </v-progress-linear>
-        <v-expansion-panels flat="true">
+        <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
@@ -125,6 +125,28 @@
             <v-expansion-panel-content>
               <p class="text-center">
               implementation of mathmatical operation for basic algorithm
+              </p></v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      </div>
+
+      <div id="progress-java">
+        <v-progress-linear
+          value="20"
+          height="20"
+          background-color="orange lighten-3"
+          color="orange lighten-1"
+        >
+          <div>Java</div>
+        </v-progress-linear>
+        <v-expansion-panels flat=true>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <p class="text-center">
+              basic knowledge
               </p></v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>

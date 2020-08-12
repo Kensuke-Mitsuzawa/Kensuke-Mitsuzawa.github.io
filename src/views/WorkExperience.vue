@@ -3,7 +3,7 @@
     <v-flex text-center>
       <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
         <p class="text-h3 text-center">
-          <v-icon large="true">fas fas fa-building</v-icon>
+          <v-icon large=true>fas fas fa-building</v-icon>
           &nbsp;{{ $t('work_experience.title') }}
         </p>
         <v-card max-width="1400" elevation="0">

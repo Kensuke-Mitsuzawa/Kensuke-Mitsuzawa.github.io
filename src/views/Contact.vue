@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
           <p class="text-h3 text-center">
-            <v-icon large="true">fas fa-envelope-open-text</v-icon>&nbsp;Contact
+            <v-icon large=true>fas fa-envelope-open-text</v-icon>&nbsp;Contact
           </p>
           <div class="text-center" id="contact-email">
             <p class="text-center text-h4">email</p>
