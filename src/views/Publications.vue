@@ -12,6 +12,22 @@
                 <v-col cols="auto">
                   <p class="text-h5 text--primary">
                     <a
+                      href="https://noisy-text.github.io/2020/pdf/2020.d200-1.10.pdf"
+                    >Sentence Boundary Detection on Line Breaks in Japanese.</a>
+                  </p>
+                  <p>
+                    Yuta Hayashibe and <u>Kensuke Mitsuzawa</u>
+                  </p>
+                  <p>Proceedings of the 6th Workshop on Noisy User-generated Text. November 2020. (W-NUT 2020)</p>
+                </v-col>
+              </v-row>
+            </v-card>
+
+            <v-card color="white" max-width="1500" elevation="0">
+              <v-row align="center" justify="center">
+                <v-col cols="auto">
+                  <p class="text-h5 text--primary">
+                    <a
                       href="https://dl.acm.org/doi/10.1145/3282373.3282405"
                     >Clause-level Negative-opinion Analysis for Classifying Reviews on Multiple Domains.</a>
                   </p>
