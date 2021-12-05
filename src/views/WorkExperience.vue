@@ -16,7 +16,7 @@
               </v-col>
               <v-col cols="5" class="text-center text-h5 pl-0">
                 <p>Remote</p>
-                <p>December 2018 -</p>
+                <p>December 2018 - December 2020</p>
               </v-col>
             </v-row>
 

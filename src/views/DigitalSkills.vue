@@ -23,13 +23,14 @@
             <v-expansion-panel-content>
               <p class="text-center">Packaging,<br>
               Web app&nbsp;(Flask, Django),<br>
-              natural language processing&nbsp;(for Japanese, English, German),<br>
-              machine learning&nbsp;(scikit-learn etc.),<br>
-              deep learning&nbsp;(chainer, tensorflow, Theano, pytorch),<br>
+              Natural language processing for Japanese, English, German&nbsp;(NLTK, spaCy, HuggingFace),<br>
+              Machine learning&nbsp;(scikit-learn etc.),<br>
+              Deep learning&nbsp;(chainer, tensorflow, Theano, pytorch),<br>
               Data analysis script&nbsp;(Jupyter notebook),<br>
               Data visualization,<br>
               Code optimization&nbsp;(Cython)<br>
-              Tsunami Simulation&nbsp;(Clawpack-5)
+              Tsunami Simulation&nbsp;(Clawpack-5)<br>
+              Traffic simulation&nbsp;(SUMO)
             </p>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -179,7 +180,7 @@
       </p>
       <div class="text-center">
       <ul style="list-style: none;">
-        <li>continuous integration tool: Jenkins, Circle-ci, Travis</li>
+        <li>Continuous integration tool: Jenkins, Circle-ci, Travis</li>
         <li>Development tools: Pycharm, vim, git, Docker, Apache</li>
         <li>Business tools: MS office, Google office tools, Atlassian confluence</li>
         <li>Communication tools: Slack</li>
