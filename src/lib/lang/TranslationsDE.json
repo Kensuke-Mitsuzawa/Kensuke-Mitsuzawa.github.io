@@ -1,10 +1,10 @@
 {
     "abstract": {
         "title": "Kurzprofil",
-        "brief_title": "Doktorand in Frankreich, mit der erfahrene Kenntnisse auf Data Scientist/Data engineer. Das aktuelle Forschungsthema ist \"Simulator calibration with Bayesian estimations\".",
+        "brief_title": "Doktorand in Frankreich, mit der erfahrene Kenntnisse auf Data Scientist/Data engineer. Das aktuelle Forschungsthema ist “Variable Detection via Maximum Mean Discrepancy (MMD)”.",
         "introduction": "Ziemlich Spezialisierung auf NLP (Natural Language Processing) mit Kenntnisse der Linguistik.",
         "work_experience": "Meine Berufserfahrung sind auf Data-Analysis für Nutzerdaten des Videospiels, Künstlich-Intelligenz und Machine-Leaning ziemlich für NLP Projekten sowie Text-summarization, Document-clustering/classification, Information-retrieval etc. Nicht nur Data-Analysis, sondern auch Erfahrungen auf System-Entwickelungen. Dafür ist es möglich, der Entwurf des Hardwares, DB-Spezifikations, Test-Environment sowie Docker oder Continuous-integrations zu planen. Im Bereich Systemadministration habe ich Erfahrung mit der Migration von Geschäftssystemen für ein kleines Team.",
-        "work_environment": "Ich habe +3 Jahre Berufserfahrung in einem internationalen Team. Dafür kann ich auf Englisch mit anderen Mitgliedern des Teams kommunizieren.",
+        "work_environment": "Ich habe +5 Jahre Berufserfahrung in einem internationalen Team. Dafür kann ich auf Englisch mit anderen Kollegen kommunizieren.",
         "research_preference": "Aus Forschungssicht sind meine Interessen auf dem Information-Extraction aus der Text-Daten. Das ist weil, ich mich bisher mehr 5 Jahren auf einem Projekt mit dem Information-Extraction beschäftigt habe. Das Projekt ist für eine Meinungsplattform.",
         "research_experience": "Mein Theme der Forschung war während meinem Master ein automatischen Fehlerkorrektur von englischem Text, der Klassifizierung von Dokumenten für Volkserzählungen und ein regelbasierten Übersetzung der Gebärdensprache auf Japanisch.",
         "end_sentence": "Meine Hauptprogramming-Sprache ist Python.",
@@ -29,7 +29,7 @@
         "german_name": "Deutsch",
         "german_exp": "B2",
         "french_name": "Französisch",
-        "french_exp": "A2",
+        "french_exp": "B1",
         "persian_name": "Persisch",
         "persian_exp": "A1"
     },

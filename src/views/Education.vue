@@ -21,11 +21,11 @@
         <v-row justify="space-between">
           <v-col cols="1"></v-col>
           <v-col class="hidden-md-and-down" cols="1">
-            <v-img
+            <!-- <v-img
               height="50"
               width="50"
               src="https://www.osaka-u.ac.jp/en/guide/files/logo_icho.png"
-            ></v-img>
+            ></v-img> -->
           </v-col>
           <v-col
             cols="5"

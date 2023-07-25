@@ -11,11 +11,24 @@
             <v-row justify="space-between">
               <v-col cols="1"></v-col>
               <v-col cols="5" class="text-left text-h5 pl-0">
+                <p class="font-weight-black">Phd candidate</p>
+                <p class="font-italic">Eurecom</p>
+              </v-col>
+              <v-col cols="5" class="text-center text-h5 pl-0">
+                <p>Biot, France</p>
+                <p>January 2021 - Current</p>
+              </v-col>
+            </v-row>
+
+
+            <v-row justify="space-between">
+              <v-col cols="1"></v-col>
+              <v-col cols="5" class="text-left text-h5 pl-0">
                 <p class="font-weight-black">Data Scientist / NLP Engineer / Python Developer</p>
                 <p class="font-italic">Freelancer</p>
               </v-col>
               <v-col cols="5" class="text-center text-h5 pl-0">
-                <p>Remote</p>
+                <p>Frankfurt am Main / Remote</p>
                 <p>December 2018 - December 2020</p>
               </v-col>
             </v-row>

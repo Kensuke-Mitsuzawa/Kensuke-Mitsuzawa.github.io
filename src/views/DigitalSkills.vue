@@ -23,9 +23,9 @@
             <v-expansion-panel-content>
               <p class="text-center">Packaging,<br>
               Web app&nbsp;(Flask, Django),<br>
-              Natural language processing for Japanese, English, German&nbsp;(NLTK, spaCy, HuggingFace),<br>
+              Natural language processing for Japanese, English, German&nbsp;(HuggingFace, NLTK, spaCy),<br>
               Machine learning&nbsp;(scikit-learn etc.),<br>
-              Deep learning&nbsp;(chainer, tensorflow, Theano, pytorch),<br>
+              Deep learning&nbsp;(Tensorflow, Pytorch),<br>
               Data analysis script&nbsp;(Jupyter notebook),<br>
               Data visualization,<br>
               Code optimization&nbsp;(Cython)<br>
@@ -164,7 +164,7 @@
       <p class="text-h4 text-center">
         <v-icon>fas fa-cloud</v-icon>&nbsp;cloud computings
       </p>
-      <p class="text-center">AWS, GCP, Azure</p>
+      <p class="text-center">AWS, GCP</p>
     </v-card>
 
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">

@@ -23,9 +23,9 @@ def main(path_source_excel: str, path_target_dir: str):
     df_data = pandas.read_excel(path_source_excel)
     df_data = df_data.replace(np.nan, '', regex=True)
 
-    seq_en_records = df_data[['section', 'key', 'en']].to_dict('record')
-    seq_jp_records = df_data[['section', 'key', 'ja']].to_dict('record')
-    seq_de_records = df_data[['section', 'key', 'de']].to_dict('record')
+    seq_en_records = df_data[['section', 'key', 'en']].to_dict('records')
+    seq_jp_records = df_data[['section', 'key', 'ja']].to_dict('records')
+    seq_de_records = df_data[['section', 'key', 'de']].to_dict('records')
 
     output_object_en = convert_data_structure(seq_en_records, 'en')
     output_object_jp = convert_data_structure(seq_jp_records, 'ja')
