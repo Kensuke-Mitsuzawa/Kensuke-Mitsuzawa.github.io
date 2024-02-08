@@ -3,13 +3,22 @@
     <vue-headful title="Projects-experiences" description=" " />
     <HeaderBar></HeaderBar>
     <v-main>
+    <div class="mx-5">
       <v-layout justify-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Projects</p>
-
+          <!-- body -->
+          <div>
+          <v-expansion-panels flat=true>
+          <v-expansion-panel>
+          <v-expansion-panel-header>
+          <p class="text-decoration-underline text-center">
+          <v-icon>far fa-hand-point-right</v-icon>&nbsp;News distribution system</p>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
           <v-card color="white" elevation="0">
-            <p class="text-h5 text-decoration-underline">News distribution system</p>
             <p class="text-h6 font-italic">nondisclosure</p>
+            <p class="text">Feb 2020 - April 2020</p>
             <p>The project team would like to send news text automatically depending on the preference of their readers.
               In other words, the automation of news distributions.
               For these requirements, I constructed the news distribution system on AWS, as well as,
@@ -18,11 +27,21 @@
             <p class="text-h6 font-italic">Keywords</p>
             <p>AWS-SNS, Flask / AWS-Lambda for web-appliaction, AWS-ECS, scikit-learn</p>
           </v-card>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+        </div>
 
+        <div>
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
+          <p class="text-decoration-underline text-center"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Keyword extraction system</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
-            <p class="text-h5 text-decoration-underline">Keyword extraction system</p>
-
             <p class="text-h6 font-italic">nondisclosure</p>
+            <p class="text">July 2019 - Nov 2019</p>
 
             <p>
               The project team would like to know topics in society.
@@ -37,11 +56,22 @@
             <p class="text-h6 font-italic">Keywords</p>
             <p>NLP&nbsp;(for German), web-scraping, named-entity-extraction&nbsp;(Spacy), visualization, AWS-ECS</p>
           </v-card>
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+          </div>
 
+          <div>
+
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
+          <p class="text-center text-decoration-underline"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Text summarization system</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
-            <p class="text-h5 text-decoration-underline">Text summarization system</p>
-
             <p class="text-h6 font-italic">nondisclosure</p>
+            <p class="text">April 2019 - July 2019</p>
 
             <p>
               The project team publishes news texts every day.
@@ -53,10 +83,21 @@
             <p class="text-h6 font-italic">Keywords</p>
             <p>NLP, summarization, AWS-ECS</p>
           </v-card>
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+          </div>
 
+          <div>
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
+          <p class="text-center text-decoration-underline"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Entity extraction from review texts</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
-            <p class="text-h5 text-decoration-underline">Entity extraction from review texts</p>
             <p class="text-h6 font-italic">nondisclosure</p>
+            <p class="text">Feb 2019 - Dec 2020</p>
 
             <p>
               The project team has a lot of review texts.
@@ -69,12 +110,23 @@
             <p class="text-h6 font-italic">Keywords</p>
             <p>NLP, Sequence labeling, Bert, thesaurus, Google-Cloud-Platform</p>
           </v-card>
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+          </div>
 
-          <v-card color="white" max-width="1500" elevation="0">
+          <div>
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
             <p
-              class="text-h5 text-decoration-underline"
-            >Information Extractons from an opinion platform and software development with NLP technologies</p>
-            <p class="text-h6 font-italic">Insight Tech Inc., Tokyo Japan</p>
+              class="text-center text-decoration-underline"
+            ><v-icon>far fa-hand-point-right</v-icon>&nbsp;Information Extractons from an opinion platform</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card color="white" max-width="1500" elevation="0">
+            <p class="font-italic">Insight Tech Inc., Tokyo Japan</p>
+            <p class="text">2015 - Nov 2018</p>
 
             <p>
               The startup company provides a text analytics system for the Japanese language, Running an opinion platform named "FumanKaitori".
@@ -139,12 +191,23 @@
               sentiment analysis, LSTM, CNN, Django, Flask, Docker, AWS
             </p>
           </v-card>
-
-          <v-card color="white" max-width="1500" elevation="0">
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+          </div>
+          <!-- ================================ -->
+          <div>
+          <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
             <p
-              class="text-h5 text-decoration-underline"
-            >User behavior analysis on vide games in mobile devices</p>
+              class="text-center text-decoration-underline"
+            ><v-icon>far fa-hand-point-right</v-icon>&nbsp;User behavior analysis on vide games in mobile devices</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card color="white" max-width="1500" elevation="0">
             <p class="text-h6 font-italic">Drecom Inc., Tokyo Japan</p>
+            <p class="text">April 2014 - 2015</p>
             <p>
               To provide games with good quality, it's necessary to understand users' behavior.
               Social game providers are recording a huge number of data of users' behavior such as a timestamp of login,
@@ -159,10 +222,21 @@
 
             <p class="font-italic">Keyword: MySQL, Hadoop, R(on Rstudio)</p>
           </v-card>
-
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+        </div>
+        <!-- ================================ -->
+        <div>
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
+        <p class="text-center text-decoration-underline"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Document classification on folklore text</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
-            <p class="text-h5 text-decoration-underline">Document classification on folklore text</p>
-            <p class="text-h6 font-italic">Master thesis in Nara Institute of Science and Technology</p>
+            <p class="text font-italic">Master thesis in Nara Institute of Science and Technology</p>
+            <p class="text">March 2014</p>
             <p>
               An analysis of narratives has been conducted in folklore fields.
               It enables us to discover customs or manner when narratives are told among populaces.
@@ -179,12 +253,22 @@
               class="font-italic"
             >Keyword: Folklore, Document classification, Multi-label classification, Natural language processing, Feautre selection</p>
           </v-card>
-
-          <v-card color="white" max-width="1500" elevation="0">
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
+          </div>
+          <!-- ================================ -->
+        <v-expansion-panels flat=true>
+        <v-expansion-panel>
+        <v-expansion-panel-header>
             <p
-              class="text-h5 text-decoration-underline"
-            >Corpus statistics on persian textbook for foreigners</p>
-            <p class="text-h6 font-italic">Bachelor thesis in Osaka University</p>
+              class="text-center text-decoration-underline"
+            ><v-icon>far fa-hand-point-right</v-icon>&nbsp;Corpus statistics on persian textbook for foreigners</p>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card color="white" max-width="1500" elevation="0">
+            <p class="text font-italic">Bachelor thesis in Osaka University</p>
+            <p class="text">March 2012</p>
             <p>
               The main theme of my study is "Linguistics feature of Persian for non-native speakers".
               For leaning a language efficiently, it is necessary to understand the difference of linguistics aspect.
@@ -193,8 +277,12 @@
               I constructed syntactic-trees from parallel text between Japanese and Persian, and I compared which elements are added or deleted between 2 languages.
             </p>
           </v-card>
+          </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
         </v-flex>
       </v-layout>
+    </div>
     </v-main>
   </v-app>
 </template>
@@ -209,3 +297,20 @@ export default {
   },
 };
 </script>
+
+
+<style>
+
+/* For PC */
+.text {
+  font-size: 20px;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+</style>

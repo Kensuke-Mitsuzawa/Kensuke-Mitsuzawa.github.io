@@ -6,7 +6,7 @@
       <!-- picture -->
       <v-layout text-xs-center px-3 py-3 row wrap>
         <v-flex>
-        <div class="mx-5">
+        <div class="mx-5">  <!-- margin in width with 20px -->
           <v-row align="center" justify="center">
             <v-col cols="auto">
               <v-img
