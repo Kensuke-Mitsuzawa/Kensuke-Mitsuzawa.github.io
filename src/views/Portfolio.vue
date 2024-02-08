@@ -3,6 +3,7 @@
     <vue-headful title="Portfolio of Kensuke Mitsuzawa" description=" " />
     <HeaderBar></HeaderBar>
     <v-main>
+      <div class="mx-8">
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Portfolios</p>
@@ -15,12 +16,13 @@
             <v-row align="center" justify="center">
               <v-col cols="auto">
                 <p class="text-h5 display-1 text--primary">MuSpNa</p>
-                <a href="https://www.mu-sp-na.tk/">URL</a>
+                <!-- <a href="https://www.mu-sp-na.tk/">URL</a> -->
                 <div
                   class="text--primary"
                 >
                 <p>A web application to help a language learner develop reading abilities.</p>
                 <p>Language learners could understand foreign texts with the supports of translations and grammatical hints.</p>
+                <p>This service is closed already.</p>
                 </div>
               </v-col>
             </v-row>
@@ -162,6 +164,7 @@
           </v-card>
         </v-flex>
       </v-layout>
+      </div>
     </v-main>
   </v-app>
 </template>

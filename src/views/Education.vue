@@ -6,7 +6,6 @@
     <v-card max-width="1400" elevation="0">
       <v-container>
         <v-row justify="space-between">
-            <v-row justify="space-between">
               <v-col cols="1"></v-col>
               <v-col cols="5" class="text-left h5 pl-0">
                 <p class="font-weight-black">Phd candidate</p>
@@ -16,13 +15,11 @@
                 <p>Biot, France</p>
                 <p>January 2021 - Current</p>
               </v-col>
-            </v-row>
+          </v-row>
 
+          <v-row justify="space-between">
           <v-col cols="1"></v-col>
-          <!-- <v-col class="hidden-md-and-down" cols="1">
-            <v-img height="50" width="50" src="http://www.naist.jp/about/img/logomark_R.jpg"></v-img>
-          </v-col> -->
-          <v-col cols="5" class="text-center h5 pl-0">
+          <v-col cols="5" class="text-left h5 pl-0">
             <p>{{ $t('education.master_title') }}</p>
             <p class="font-italic">{{ $t('education.master_school') }}</p>
             <p>Supervisor: Yuji Matsumoto</p>
@@ -32,17 +29,7 @@
 
         <v-row justify="space-between">
           <v-col cols="1"></v-col>
-          <!-- <v-col class="hidden-md-and-down" cols="1">
-             <v-img
-              height="50"
-              width="50"
-              src="https://www.osaka-u.ac.jp/en/guide/files/logo_icho.png"
-            ></v-img>
-          </v-col>  -->
-          <v-col
-            cols="5"
-            class="text-center h5 pl-0"
-          >
+          <v-col cols="5" class="text-left h5 pl-0">
           <p>{{ $t('education.bachelor_title') }}</p>
           <p class="font-italic">{{ $t('education.bachelor_school' ) }} </p>
           </v-col>
