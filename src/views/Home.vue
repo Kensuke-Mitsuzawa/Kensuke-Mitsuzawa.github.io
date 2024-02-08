@@ -33,12 +33,15 @@
         </v-flex>
       </v-layout>
 
-      <div class="mx-8">
-      <!-- abstract text -->
+      <div class="mx-8 gaegu-font">
+      <!-- abstract/self-Introduction text -->
       <div id="abstract">
         <v-expansion-panels flat=true>
           <v-expansion-panel>
-            <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;Self Introduction</p>
+            <v-expansion-panel-header>
+            <p class="h2 text-center">
+            <v-icon>far fa-hand-point-right</v-icon>&nbsp;Self Introduction
+            </p>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
             <AbstractSection></AbstractSection>
@@ -46,8 +49,10 @@
             </v-expansion-panel>
           </v-expansion-panels>
       </div>
+
       <v-divider></v-divider>
       <DigitalSkills></DigitalSkills>
+      <v-divider></v-divider>
       <v-divider></v-divider>
       <Languages></Languages>
       <v-divider></v-divider>
@@ -112,15 +117,27 @@ export default {
 </script>
 
 
-<style scoped>
-/* For desktop: */
-.text {
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+/* for japanese */
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
+/* font gaegu */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Gaegu', cursive;
+}
+
+
+/* For PC */
+.gaegu-font {
+  font-family: 'Gaegu', cursive, sans-serif;
   font-size: 20px;
 }
 
 /* For mobile: */
 @media only screen and (max-width: 600px) {
-  .text {
+  .gaegu-font {
+    font-family: 'Gaegu', cursive, sans-serif;
     font-size: 16px;
   }
 }

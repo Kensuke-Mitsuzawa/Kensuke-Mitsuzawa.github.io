@@ -1,9 +1,9 @@
 <template>
   <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
-    <p class="text-h4 text-center text-decoration-underline">Digital skills</p>
+    <p class="h2 text-center text-decoration-underline">Digital skills</p>
     <!-- Programming language -->
     <v-card class="mx-auto" color="white" max-width="1400" flat="false" elevation="0">
-      <p class="text-h4 text-center">
+      <p class="h2 text-center">
         <v-icon>fas fa-laptop</v-icon>
         &nbsp;{{ $t('digital_skills.title_programming') }}
       </p>
@@ -155,20 +155,20 @@
     </v-card>
     <!-- Technical Skillsets -->
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="text-h4 text-center">
-        <v-icon>fas fa-database</v-icon>&nbsp;databases
+      <p class="h4 text-center">
+        <v-icon>fas fa-database</v-icon>&nbsp;Databases
       </p>
       <p class="text-center">MySQL, Postgresql, Redis, SQLite3, MongoDB, ElasticSearch</p>
     </v-card>
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="text-h4 text-center">
-        <v-icon>fas fa-cloud</v-icon>&nbsp;cloud computings
+      <p class="h4 text-center">
+        <v-icon>fas fa-cloud</v-icon>&nbsp;Cloud Computings
       </p>
       <p class="text-center">AWS, GCP</p>
     </v-card>
 
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="text-h4 text-center">
+      <p class="h4 text-center">
         <v-icon>fas fa-desktop</v-icon>&nbsp;OS
       </p>
       <p class="text-center">Linux, MacOS, Windows</p>

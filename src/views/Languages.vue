@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
-    <p class="text-h3 text-center">
+    <p class="h2 text-center">
       <v-icon large=true>fas fa-language</v-icon>&nbsp;{{ $t('languages.title') }}
     </p>
     <v-layout text-xs-center px-3 py-3 row wrap>
