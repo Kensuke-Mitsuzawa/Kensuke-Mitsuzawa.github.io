@@ -3,8 +3,10 @@
     <vue-headful title="CV Kensuke Mitsuzawa" description=" " />
     <HeaderBar></HeaderBar>
     <v-main>
+      <!-- picture -->
       <v-layout text-xs-center px-3 py-3 row wrap>
         <v-flex>
+        <div class="mx-5">
           <v-row align="center" justify="center">
             <v-col cols="auto">
               <v-img
@@ -13,6 +15,8 @@
               src="https://github.com/Kensuke-Mitsuzawa/Kensuke-Mitsuzawa.github.io/blob/master/images/profile_photo.jpg?raw=true"></v-img>
             </v-col>
           </v-row>
+          </div>
+          <!-- language selector -->
           <v-row align="center" justify="center">
             <v-col cols="auto">
               <button @click="changeLocaleToEn">
@@ -29,7 +33,19 @@
         </v-flex>
       </v-layout>
 
-      <AbstractSection></AbstractSection>
+      <div class="mx-8">
+      <!-- abstract text -->
+      <div id="abstract">
+        <v-expansion-panels flat=true>
+          <v-expansion-panel>
+            <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;Self Introduction</p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+            <AbstractSection></AbstractSection>
+            </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
+      </div>
       <v-divider></v-divider>
       <DigitalSkills></DigitalSkills>
       <v-divider></v-divider>
@@ -40,6 +56,7 @@
       <WorkExperience></WorkExperience>
       <v-divider></v-divider>
       <Contact></Contact>
+      </div>
       <router-view />
     </v-main>
     <v-footer color="black" dark app></v-footer>
@@ -93,3 +110,19 @@ export default {
   },
 };
 </script>
+
+
+<style scoped>
+/* For desktop: */
+.text {
+  font-size: 20px;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+</style>
