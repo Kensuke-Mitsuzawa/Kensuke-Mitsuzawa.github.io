@@ -7,6 +7,7 @@
         <v-icon>fas fa-laptop</v-icon>
         &nbsp;{{ $t('digital_skills.title_programming') }}
       </p>
+      <!-- ==================================== -->
       <div id="progress-python">
         <v-progress-linear
           value="90"
@@ -36,7 +37,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
-
+      <!-- ==================================== -->
       <div id="progress-R">
         <v-progress-linear
           value="70"
@@ -63,7 +64,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
-
+      <!-- ==================================== -->
       <div id="progress-bash">
         <v-progress-linear
           value="60"
@@ -83,7 +84,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
-
+      <!-- ==================================== -->
       <div id="progress-javascript">
         <v-progress-linear
           value="50"
@@ -108,7 +109,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
-
+      <!-- ==================================== -->
       <div id="progress-c">
         <v-progress-linear
           value="20"
@@ -130,7 +131,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </div>
-
+      <!-- ==================================== -->
       <div id="progress-java">
         <v-progress-linear
           value="20"
