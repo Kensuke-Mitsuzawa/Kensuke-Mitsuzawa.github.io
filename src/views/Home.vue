@@ -36,7 +36,7 @@
       <div class="mx-8 gaegu-font">
       <!-- abstract/self-Introduction text -->
       <div id="research topics" class="text-center">
-        <p class="h3 text-decoration-underline">Current research topics</p>
+        <p class="h3 text-decoration-underline">Current Research Topics</p>
         <p>Maximum Mean Discrepancy, Kernel Mean Embedding, Explainable AI</p>
       </div>
       <div id="abstract">

@@ -1,17 +1,17 @@
 {
     "abstract": {
         "title": "Abstract",
-        "brief_title": "P.h.d candidate at Eurecom, France with a strong background as a Data Scientist/Data engineer. The main research topic is “Variable Detection via Maximum Mean Discrepancy (MMD)”.",
-        "introduction": "I am specialized in NLP(Natural Language Processing) with my linguistics background.",
-        "work_experience": "For work experience, I have experience in data analytics from log data for the social game, machine learning techniques for NLP solutions, such as text summarization, document clustering/classification, information retrieval, etc. Not only data analysis but also I have experience in system development for data analytics. For that, I can consider hardware, DB specification, deployment, and operations using Jenkins, Docker, etc. In the point of system admin, I have experience in business system migration for a small team. Thus, I can make IT/development plans by considering business roadmaps.",
-        "work_environment": "I have worked in an international work environment more than 5 years. English has been the communication language.",
-        "research_preference": "For a research perspective, I am interested in information extraction/information retrieval from the text. This is because I have worked for 3.5 years on projects to extract business useful information from the text which is posted to an opinion-platform so that I feel technical limitations of existing NLP methods.",
-        "research_experience": "To this day, I had research experience in Auto-Error-Correction of English text, document classification for folk narratives, and Rule-based translation of Sign language from Japanese text.",
-        "end_sentence": "I use Python mainly.",
+        "brief_title": "P.h.d candidate at Eurecom, France with a strong background as a Data Scientist/Data engineer. ",
+        "introduction": "Bachelor's degree in foreign language, Master of Engineering.",
+        "work_experience": "I have worked in the industry for 7 years. Abundant and rich experiences in data analysis, machine learning projects, especially Natural Language Processing fields.",
+        "work_environment": "3 years in Germany and 3 years in France. Although English is the default communication language, I have made my best efforts to master local languages.",
+        "research_preference": "",
+        "research_experience": "Currently, my research field is in explainable AI, validation of simulation models. I have proposed a variable selection method using Maximum Mean Discrepancy.",
+        "end_sentence": "",
         "notation": ""
     },
     "digital_skills": {
-        "title_programming": "programming languages"
+        "title_programming": "Programming Languages"
     },
     "education": {
         "title": "Education",
