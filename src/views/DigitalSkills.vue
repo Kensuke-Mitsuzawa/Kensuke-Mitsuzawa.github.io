@@ -119,7 +119,7 @@
         >
           <div>C/C++</div>
         </v-progress-linear>
-        <v-expansion-panels flat=true>
+        <!-- <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
               <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
@@ -129,7 +129,8 @@
               implementation of mathmatical operation for basic algorithm
               </p></v-expansion-panel-content>
           </v-expansion-panel>
-        </v-expansion-panels>
+        </v-expansion-panels> -->
+        <p></p>
       </div>
       <!-- ==================================== -->
       <div id="progress-java">
@@ -141,6 +142,8 @@
         >
           <div>Java</div>
         </v-progress-linear>
+        <p></p>
+        <!--
         <v-expansion-panels flat=true>
           <v-expansion-panel>
             <v-expansion-panel-header>
@@ -151,7 +154,7 @@
               basic knowledge
               </p></v-expansion-panel-content>
           </v-expansion-panel>
-        </v-expansion-panels>
+        </v-expansion-panels> -->
       </div>
     </v-card>
     <!-- Technical Skillsets -->
@@ -159,7 +162,7 @@
       <p class="h4 text-center">
         <v-icon>fas fa-database</v-icon>&nbsp;Databases
       </p>
-      <p class="text-center">MySQL, Postgresql, Redis, SQLite3, MongoDB, ElasticSearch</p>
+      <p class="text-center">SQLs, Redis, MongoDB, ElasticSearch, Qdrant</p>
     </v-card>
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
       <p class="h4 text-center">
@@ -176,13 +179,13 @@
     </v-card>
 
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="text-h4 text-center">
-        <v-icon>fas fa-toolbox</v-icon>&nbsp;other tools
+      <p class="h4 text-center">
+        <v-icon>fas fa-toolbox</v-icon>&nbsp;Other Tools
       </p>
       <div class="text-center">
       <ul style="list-style: none;">
         <li>Continuous integration tool: Jenkins, Circle-ci, Travis</li>
-        <li>Development tools: Pycharm, vim, git, Docker, Apache</li>
+        <li>Development tools: VScode, Pycharm, vim, git, Docker, Apache</li>
         <li>Business tools: MS office, Google office tools, Atlassian confluence</li>
         <li>Communication tools: Slack</li>
       </ul>

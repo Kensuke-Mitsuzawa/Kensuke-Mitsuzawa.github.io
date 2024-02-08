@@ -25,9 +25,9 @@
               <button @click="changeLocaleToJa">
                 <country-flag country="jp" size="normal" />
               </button>
-              <button @click="changeLocaleToDe">
+              <!-- <button @click="changeLocaleToDe">
                 <country-flag country="de" size="normal" />
-              </button>
+              </button>  -->
             </v-col>
           </v-row>
         </v-flex>
@@ -35,6 +35,10 @@
 
       <div class="mx-8 gaegu-font">
       <!-- abstract/self-Introduction text -->
+      <div id="research topics" class="text-center">
+        <p class="h3 text-decoration-underline">Current research topics</p>
+        <p>Maximum Mean Discrepancy, Kernel Mean Embedding, Explainable AI</p>
+      </div>
       <div id="abstract">
         <v-expansion-panels flat=true>
           <v-expansion-panel>
@@ -109,9 +113,9 @@ export default {
     changeLocaleToEn: function() {
       this.$i18n.locale = 'en';
     },
-    changeLocaleToDe: function() {
+    /** changeLocaleToDe: function() {
       this.$i18n.locale = 'de';
-    },
+    }, **/
   },
 };
 </script>
