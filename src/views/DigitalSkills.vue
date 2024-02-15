@@ -31,7 +31,8 @@
               Data visualization,<br>
               Code optimization&nbsp;(Cython)<br>
               Tsunami Simulation&nbsp;(Clawpack-5)<br>
-              Traffic simulation&nbsp;(SUMO)
+              Traffic simulation&nbsp;(SUMO, please see my portfolio too)<br>
+              GIS Analysis (QGIS, Kepler.gl, please see my portfolio too)
             </p>
             </v-expansion-panel-content>
           </v-expansion-panel>

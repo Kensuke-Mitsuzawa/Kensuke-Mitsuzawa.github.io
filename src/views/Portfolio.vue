@@ -7,6 +7,12 @@
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Portfolios</p>
+          <div id="section-GIS">
+            <p class="text-h4 text-center display-1 text--primary text-decoration-underline">GIS Analysis</p>
+            <router-link to="/portfolio-gis">Projects related to GIS</router-link>
+            <p></p>
+          </div>
+          <!-- ==================================== -->
           <div id="section-service">
             <p
               class="text-h4 text-center display-1 text--primary text-decoration-underline"
@@ -59,6 +65,7 @@
               </v-col>
             </v-row>
           </v-card>
+          <!-- ==================================== -->
           <div id="section-python">
             <p
               class="text-h4 text-center display-1 text--primary text-decoration-underline"
