@@ -5,6 +5,7 @@ import Portfolio from '../views/Portfolio.vue';
 import Publications from '../views/Publications.vue';
 import Projects from '../views/Projects.vue';
 import PortfolioGIS from '../views/Portfolio-GIS';
+import MMDPaperDemoCatDog from '../views/MmdPaperDemoCatDog';
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/publications',
     name: 'Publications',
     component: Publications,
+  },
+  {
+    path: '/mmd-paper-demo',
+    name: 'MMDPaperDemoCatDog',
+    component: MMDPaperDemoCatDog,
   },
   {
     path: '/projects',

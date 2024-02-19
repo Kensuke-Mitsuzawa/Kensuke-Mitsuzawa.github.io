@@ -32,6 +32,7 @@
             <!-- ==================================== -->
             <v-row align="center" justify="center">
                 <p><u>Interactive maps are available!</u></p>
+                <p></p>
                 <p><a
                 target="_blank"
                 href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/n6aantykuy5k9zwdzdd6b/keplergl_kz98r7p.json?rlkey=i6muwngz7obmo825t4vkqgyzp&dl=0">
@@ -45,6 +46,7 @@
             <!-- ==================================== -->
             <v-row align="center" justify="center">
                 <p><u>Study Area</u></p>
+                <p></p>
                 <p>I used the sophisticated calibrated OSS scenario
                 <a target="_blank" href="https://github.com/lcodeca/MoSTScenario">"MoST"</a>.</p>
                 <p>The simulation study area is in south France.
@@ -64,6 +66,7 @@
             <!-- ==================================== -->
             <v-row align="center" justify="center">
                 <p><u>Features</u></p>
+                <p></p>
                 <p>Infomative tooltip. Google Map link is too.</p>
                 <p>Even though unfamiliar with the study area, Google Map provides intuitive and interactive GUI for understanding the area.</p>
                 <v-col cols="auto">

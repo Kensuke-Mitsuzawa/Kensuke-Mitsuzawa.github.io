@@ -11,6 +11,9 @@ import CountryFlag from 'vue-country-flag';
 import {data} from '@/lib/lang/index.js';
 import '@fortawesome/fontawesome-free/css/all.css';
 import VueAnalytics from 'vue-analytics';
+import VueKatex from 'vue-katex';
+import 'katex/dist/katex.min.css';
+
 
 Vue.component('vue-headful', vueHeadful);
 Vue.component('country-flag', CountryFlag);
@@ -29,6 +32,8 @@ Vue.use(VueAnalytics, {
   id: 'UA-59842206-2',
   router,
 });
+
+Vue.use(VueKatex);
 
 new Vue({
   i18n: i18n,

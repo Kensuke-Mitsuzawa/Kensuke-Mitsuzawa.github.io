@@ -10,7 +10,7 @@
       <v-icon>fas fa-briefcase</v-icon>
     </v-btn>
 
-    <v-btn class="hidden-sm-and-down" to="/portfolio">Portfilo</v-btn>
+    <v-btn class="hidden-sm-and-down" to="/portfolio">Portfolio</v-btn>
     <v-btn class="hidden-md-and-up" to="/portfolio">
       <v-icon>fas fa-palette</v-icon>
     </v-btn>
