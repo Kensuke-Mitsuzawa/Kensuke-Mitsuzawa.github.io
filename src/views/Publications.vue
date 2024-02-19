@@ -18,8 +18,11 @@
                   <u>Kensuke Mitsuzawa</u>, Motonobu Kanagawa, Stefano Bortoli, Margherita Grossi, Paolo Papotti
                   </p>
                   <p>
-                    <a href="https://arxiv.org/abs/2311.01537">arxiv</a>
+                    <a href="https://arxiv.org/abs/2311.01537">arxiv</a>,
+                    <router-link to="/mmd-paper-demo">Demo</router-link>,
+                    Materials
                   </p>
+                  <p></p>
                 </v-col>
               </v-row>
             </v-card>
