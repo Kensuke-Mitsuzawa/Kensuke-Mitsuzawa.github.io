@@ -57,7 +57,14 @@
                                 <v-row align="center" justify="center">
                                     <v-col cols="auto">
                                         <p class="h3"><u>Data Source</u></p>
-                                        <p>https://www.kaggle.com/c/dogs-vs-cats/data</p>
+                                        <p>Cat and Dog face images are from <a href="https://github.com/clovaai/stargan-v2/blob/master/README.md#animal-faces-hq-dataset-afhq">AFHQ dataset.</a></p>
+                                    </v-col>
+                                </v-row>
+                                <v-row align="center" justify="center">
+                                    <v-col cols="auto">
+                                        <p class="h3"><u>Image Preprocessing</u></p>
+                                        <p>Down-scaling from 512×512 pixels to 64×64 pixels.</p>
+                                        <p>Gray-scaling of color channel.</p>
                                     </v-col>
                                 </v-row>
                                 <!-- task definition/formulation -->
@@ -68,7 +75,7 @@
                                             <p>\(X := \{x_1,...,x_n\} \stackrel{iid}{\sim} P \): a set of dog face images.</p>
                                             <p>\(Y := \{y_1,...,y_m\} \stackrel{iid}{\sim} Q \): a set of cat face images.</p>
                                             <p>\(n, m > 0 \) are indices of images.</p>
-                                            <p>Each sample \(x_n, y_m \in \mathbb{R}^{64 \times 64}\)</p>
+                                            <p>Each sample \(x_n, y_m \in \mathbb{R}^{D}, D = 4096 = 64 \times 64\)</p>
                                         </div>
                                         <p>We are interested in differences of shapes between P and Q.</p>
                                         <p>So, we want to disconver variables/features/pixels having high weights of differences.</p>
@@ -92,10 +99,16 @@
                             </v-row>
                             <!-- Algorithm Definition -->
                             <v-row align="center" justify="center">
+                                <div v-katex:auto>
                                 <v-col cols="auto">
                                     <p class="h3"><u>Details and Algorithms</u></p>
                                     <p>Details are in Appendix. A in the <a href="https://arxiv.org/pdf/2311.01537.pdf">paper</a>.</p>
+                                    <p>"wasserstein" in the example above refers to "Wasserstein-Independence" baseline.</p>
+                                    <p>It computes a weight vector "w" with the following EQ below.</p>
+                                    <p>\(w = \{Wasserstein(X^d, Y^d) | d \subset D\}\), \(w \in \mathbb{R}^{D} \)</p>
+                                    <p>Then, the variable selection is by the mthod at Secton 4.2.1 in the paper.</p>
                                 </v-col>
+                            </div>
                             </v-row>
                             </v-card>
                         </div>
