@@ -20,7 +20,7 @@
             </v-row>
             <!-- ==================================== -->
             <v-row align="center" justify="center">
-                <p><u>GIS screenshot</u></p>
+                <p class="h2"><u>GIS screenshot</u></p>
                 <v-col cols="auto">
                 <v-img
                 max-height="400"
@@ -31,26 +31,32 @@
             </v-row>
             <!-- ==================================== -->
             <v-row align="center" justify="center">
-                <p><u>Interactive maps are available!</u></p>
-                <p></p>
-                <p><a
-                target="_blank"
-                href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/xzo19l5puerdmgywljvng/Most-normal-scenario.json?rlkey=riejgtjw88haf7zvarvxw1dzi&dl=0">
-                Standard Traffic Scenario</a></p>
-                <!-- <p><a
-                target="_blank"
-                href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/64f2wiv66ie3hxm7u8900/keplergl_z3dupu.json?rlkey=qiru4fhevhojb9u6co04dofy7&dl=0">
-                Highway Blocking Scenario</a></p>
-                <p></p> -->
-                <p><a
-                target="_blank"
-                href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/2uvpvoct6bm8fl455h6bk/heavy-blocking-scenario.json?rlkey=xat24wpur3hwmdr7qj83gbf8n&dl=0">
-                Heavy Highway Blocking Scenario</a></p>
+                <p class="h2"><u>Interactive maps are available!</u></p>
+                <div>
+                <ul style="list-style-type:none;">
+                  <li>
+<a
+target="_blank"
+href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/4w71od7ghfiynhpe6w56n/Most-original-2024-04-03.json?rlkey=gc2aaxqkvoqt4o5h7p7lrihuo&dl=0">
+Original Traffic Scenario</a></li>
+                  <li>
+<a
+target="_blank"
+href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/b1dx4b9w5j4re1y7mxytj/MOST-heavy-blocking-scenario-2024-04-03.json?rlkey=92xgqoer81rpiwm3mvd02kilm&dl=0">
+Heavy Highway Blocking Scenario</a></li>
+                  <li>
+<a
+target="_blank"
+href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/35tbr4ojfzeg6tk7lvjwc/MOST-L1-comparison-2024-04-03.json?rlkey=y3rqdjef2ub8nyjnvt3h8rzau&dl=0">
+Comparison by L1 distance (Absolute values)</a></li>
+                </ul>
+              </div>
             </v-row>
             <!-- ==================================== -->
             <v-row align="center" justify="center">
-                <p><u>Study Area</u></p>
+                <p class="h2"><u>Study Area</u></p>
                 <p></p>
+                <div>
                 <p>I used the sophisticated calibrated OSS scenario
                 <a target="_blank" href="https://github.com/lcodeca/MoSTScenario">"MoST"</a>.</p>
                 <p>The simulation study area is in south France.
@@ -66,10 +72,12 @@
                 3m5!1s0x12cde999c102ce85:0x23682a842cf14aa0!8m2!3d43.757808!4d7.473754!16zL20vMDRoNnBr?entry=ttu">Roquebrune-Cap-Martin, France.</a>
                 </p>
                 <p>The scenario simulates traffic circulation from an early morning time(4 a.m.) until noon (12:30).</p>
+              </div>
             </v-row>
             <!-- ==================================== -->
             <v-row align="center" justify="center">
-                <p><u>Features</u></p>
+                <p class="h2"><u>Features</u></p>
+                <div>
                 <p></p>
                 <p>Infomative tooltip. Google Map link is too.</p>
                 <p>Even though unfamiliar with the study area, Google Map provides intuitive and interactive GUI for understanding the area.</p>
@@ -88,6 +96,7 @@
                 src="/gis-example-feature-timeslide.png">
                 </v-img>
                 </v-col>
+              </div>
             </v-row>
             <!-- ==================================== -->
             <v-row align="center" justify="center">
