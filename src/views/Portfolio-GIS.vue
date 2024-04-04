@@ -49,6 +49,20 @@ Heavy Highway Blocking Scenario</a></li>
 target="_blank"
 href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/35tbr4ojfzeg6tk7lvjwc/MOST-L1-comparison-2024-04-03.json?rlkey=y3rqdjef2ub8nyjnvt3h8rzau&dl=0">
 Comparison by L1 distance (Absolute values)</a></li>
+<li>
+<a
+target="_blank"
+href="
+https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/gi4d1fzwkikozln7idjtm/MOST-heavy-blocking-scenario-mmd-model-selection-2024-04-04.json?rlkey=um3a1ka4q7ugxk9scfvsr89c8&dl=0"
+>
+Comparison by MMD model selection</a></li>
+<li>
+<a
+target="_blank"
+href="
+https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/rm2zcmziatnxi35kvnbf8/MOST-heavy-blocking-scenario-wasserstein-baseline-2024-04-04.json?rlkey=bu1g3bsoqxrtob9tnmjoob1uw&dl=0"
+>
+Comparison by Wasserstein Baseline</a></li>
                 </ul>
               </div>
             </v-row>
