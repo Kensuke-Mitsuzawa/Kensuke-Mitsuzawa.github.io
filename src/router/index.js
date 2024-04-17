@@ -6,6 +6,7 @@ import Publications from '../views/Publications.vue';
 import Projects from '../views/Projects.vue';
 import PortfolioGIS from '../views/Portfolio-GIS';
 import MMDPaperDemoCatDog from '../views/MmdPaperDemoCatDog';
+import MmdPaperDemoParticleDNN from '../views/MmdPaperDemoParticleDNN';
 
 Vue.use(VueRouter);
 
@@ -31,9 +32,14 @@ const routes = [
     component: Publications,
   },
   {
-    path: '/mmd-paper-demo',
+    path: '/mmd-paper-demo-cat-or-dog',
     name: 'MMDPaperDemoCatDog',
     component: MMDPaperDemoCatDog,
+  },
+  {
+    path: '/mmd-paper-demo-particle-simulation',
+    name: 'MMDPaperDemoParticleSimulation',
+    component: MmdPaperDemoParticleDNN,
   },
   {
     path: '/projects',

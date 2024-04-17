@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <vue-headful title="Portfolio of Kensuke Mitsuzawa" description=" " />
+        <vue-headful title="MMD Paper Demo Cat-or-Dog" description=" " />
         <HeaderBar></HeaderBar>
         <v-main>
             <div class="mx-8">

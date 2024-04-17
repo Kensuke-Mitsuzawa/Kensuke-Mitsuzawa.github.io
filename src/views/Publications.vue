@@ -18,9 +18,13 @@
                   <u>Kensuke Mitsuzawa</u>, Motonobu Kanagawa, Stefano Bortoli, Margherita Grossi, Paolo Papotti
                   </p>
                   <p>
-                    <a href="https://arxiv.org/abs/2311.01537">arxiv</a>,
-                    <router-link to="/mmd-paper-demo">Demo</router-link>,
-                    Materials
+                    <a href="https://arxiv.org/abs/2311.01537">arxiv</a>
+                  </p>
+                  <p>
+                    <router-link to="/mmd-paper-demo-cat-or-dog">Demo (Cat or Dog?)</router-link>
+                  </p>
+                  <p>
+                    <router-link to="/mmd-paper-demo-particle-simulation">Demo (Particle Simulation)</router-link>
                   </p>
                   <p></p>
                 </v-col>
