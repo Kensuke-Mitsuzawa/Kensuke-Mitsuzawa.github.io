@@ -52,7 +52,7 @@
               </v-col>
               <v-col cols="5" class="text-center h5 pl-0">
                 <p>Tokyo Japan</p>
-                <p>April 2015 - January 2015</p>
+                <p>April 2014 - January 2015</p>
               </v-col>
             </v-row>
           </v-container>
