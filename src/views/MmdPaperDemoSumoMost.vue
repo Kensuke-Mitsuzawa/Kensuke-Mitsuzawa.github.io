@@ -299,7 +299,7 @@
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
                                             <p>"FourSquare Studio" provides an interactive GIS tool on the Web, <a
-                                                href="https://studio.foursquare.com/public/fb7d07cc-5e84-4b48-82a7-e1235e7b7935"
+                                                href="https://studio.foursquare.com/map/public/ceabebdc-f289-43e1-b486-a4ce033c22c9"
                                                 target="_brank">Link</a>.</p>
                                         </v-col>
                                     </v-row>
