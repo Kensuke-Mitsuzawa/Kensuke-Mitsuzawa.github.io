@@ -26,6 +26,7 @@
                   <p>
                     <router-link to="/mmd-paper-demo-particle-simulation">Demo (Particle Simulation)</router-link>
                   </p>
+                  <!-- <p><router-link to="/mmd-paper-demo-sumo-most">Demo (Transportation Traffic Simulation)</router-link></p> -->
                   <p></p>
                 </v-col>
               </v-row>
