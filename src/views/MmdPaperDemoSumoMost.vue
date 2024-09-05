@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <vue-headful title="MMD Paper Demo Parcile Simulation" description=" " />
+        <vue-headful title="MMD Paper Demo Transportation Traffic Simulation" description=" " />
         <HeaderBar></HeaderBar>
         <v-main>
             <div class="mx-8">
@@ -34,7 +34,7 @@
                                                 We modify this simulation scenario and create a new scenario "road blocking".
                                                 The scenario creation codebase are available <a
                                                     href="https://github.com/Kensuke-Mitsuzawa/sumo-sim-monaco-scenario"
-                                                    targe="_blank" rel="noopener noreferrer">on Github</a>.
+                                                    target="_blank" rel="noopener noreferrer">on Github</a>.
                                             </p>
                                         </v-col>
                                     </div>
@@ -89,11 +89,11 @@
                                     <v-row align="center" justify="center">
                                         <p>
                                             From simulations, we collect the number of agents per road ("edge-id" in SUMO's term).
-                                            We refer to this metric as "Veicle Count".
+                                            We refer to this metric as "Vehicle Count".
                                             The vehicle count metric is defined as "sampledSeconds" on <a
                                             href="https://sumo.dlr.de/docs/Simulation/Output/Lane-_or_Edge-based_Traffic_Measures.html"
                                             target="_blank">SUMO documentation</a>.
-                                            A vehicle count value is an aggregated value per 10 senconds (10 simulation steps).
+                                            A vehicle count value is an aggregated value per 10 seconds (10 simulation steps).
                                         </p>
 
                                         <p>
@@ -121,9 +121,9 @@
                                             <p class="h3"><u>Simulation Videos</u></p>
                                             <p>
                                                 We create animations with the collected vehicle count values.
-                                                The animation renders the vehicle count values on the study map every 10 minutes (600 simulation setps).
+                                                The animation renders the vehicle count values on the study map every 10 minutes (600 simulation steps).
                                                 The color scale is from blue (0) to red (max value).
-                                                See "jet" colorscale of <a href="https://matplotlib.org/stable/gallery/color/colormap_reference.html">Matplotlib</a>.
+                                                See "jet" color scale of <a href="https://matplotlib.org/stable/gallery/color/colormap_reference.html">Matplotlib</a>.
                                             </p>
                                         </v-col>
                                     </v-row>
@@ -145,7 +145,7 @@
                                                                         type="video/mp4">
                                                                     Your browser does not support the video tag.
                                                                 </video>
-                                                                <p clas="caption">The original simulation scenario.</p>
+                                                                <p class="caption">The original simulation scenario.</p>
                                                             </div>
                                                             <div class="video-scenario-y">
                                                                 <video controls class="video-player">
@@ -153,7 +153,7 @@
                                                                         type="video/mp4">
                                                                     Your browser does not support the video tag.
                                                                 </video>
-                                                                <p>The modified simulation scenario.</p>
+                                                                <p class="caption">The modified simulation scenario.</p>
                                                             </div>
                                                         </v-row>
                                                     </v-card>
