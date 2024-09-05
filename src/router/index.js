@@ -33,17 +33,17 @@ const routes = [
     component: Publications,
   },
   {
-    path: '/mmd-paper-demo-cat-or-dog',
+    path: '/publications/mmd-paper-demo-cat-or-dog',
     name: 'MMDPaperDemoCatDog',
     component: MMDPaperDemoCatDog,
   },
   {
-    path: '/mmd-paper-demo-particle-simulation',
+    path: '/publications/mmd-paper-demo-particle-simulation',
     name: 'MMDPaperDemoParticleSimulation',
     component: MmdPaperDemoParticleDNN,
   },
   {
-    path: '/mmd-paper-demo-sumo-most',
+    path: '/publications/mmd-paper-demo-sumo-most',
     name: 'MMDPaperDemoSumoMost',
     component: MmdPaperDemoSumoMost,
   },

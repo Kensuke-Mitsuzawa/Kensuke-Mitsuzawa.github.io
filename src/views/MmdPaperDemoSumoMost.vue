@@ -199,7 +199,7 @@
                                     <!-- Simulation Scenario -->
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
-                                            <p class="h1"><u>Variable Detection Task</u></p>
+                                            <p class="h1"><u>Variable Selection Task</u></p>
                                             <p>
                                                 We apply variable selection algorithms.
                                                 Simply say, we want to discover variables (road-ids) that make the two simulation outcomes different.
@@ -240,15 +240,23 @@
                                 </v-card>
                             </div>
                             <div id="variable-detection-result">
+                                <v-card color="white" elevation="0">
                                 <div id="variable-detection-result-description">
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
-                                            <p class="h1"><u>Variable Detection Result</u></p>
+                                            <p class="h1"><u>Variable Selection Result</u></p>
                                         </v-col>
                                     </v-row>
                                 </div>
 
                                 <div id="variable-detection-result-image">
+                                    <v-row align="center" justify="center">
+                                        <v-col cols="auto">
+                                            <p class="h3"><u>Overview</u></p>
+                                            <p>
+                                            </p>
+                                        </v-col>
+                                    </v-row>
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
                                             <p>The plot below depicts the number of selected variables per 1 bucket<v-tooltip bottom>
@@ -277,6 +285,7 @@
                                         </v-col>
                                     </v-row>
                                 </div>
+
                                 <div id="variable-detection-result-download">
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
@@ -295,15 +304,66 @@
                                         </v-col>
                                     </v-row>
                                 </div>
-                                <div id="variable-detection-result-GIS">
+                                <div id="variable-detection-result-videos">
                                     <v-row align="center" justify="center">
                                         <v-col cols="auto">
-                                            <p>"FourSquare Studio" provides an interactive GIS tool on the Web, <a
+                                            <p class="h3"><u>Videos</u></p>
+
+                                            <p>
+                                                The following videos are made with an interactive web-based GIS tool "FourSquare Studio".
+                                                You can interactively view selected variables (roads) on a street map in Monaco, <a
                                                 href="https://studio.foursquare.com/map/public/ceabebdc-f289-43e1-b486-a4ce033c22c9"
-                                                target="_brank">Link</a>.</p>
+                                                target="_brank">Link</a>.
+                                            </p>
                                         </v-col>
                                     </v-row>
+                                    <v-expansion-panels flat=true>
+                                            <v-expansion-panel>
+                                                <v-expansion-panel-header>
+                                                    <p class="text-decoration-underline text-center">
+                                                        <v-icon>far fa-hand-point-right</v-icon>&nbsp;Click to Open Videos
+                                                    </p>
+                                                </v-expansion-panel-header>
+                                                <v-expansion-panel-content>
+                                                    <p>
+                                                        In the following videos, colored lines are selected variables (roads).
+                                                        A color distinguishes bucket ids.
+                                                    </p>
+                                                    <v-row align="center" justify="center">
+                                                        <div class="video-detection-MMD-CV">
+                                                            <video controls class="video-player">
+                                                                <source src="/mmd-demo/sumo-monaco/variable-selections/MMD-CV-AGG.mp4"
+                                                                type="video/mp4">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                            <p class="caption">Variable selection result by MMD-CV</p>
+                                                        </div>
+                                                    </v-row>
+                                                    <v-row align="center" justify="center">
+                                                        <div class="video-detection-MMD-Selection">
+                                                            <video controls class="video-player">
+                                                                <source src="/mmd-demo/sumo-monaco/variable-selections/MMD-Selection.mp4"
+                                                                type="video/mp4">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                            <p class="caption">Variable selection result by MMD Selection</p>
+                                                        </div>
+                                                    </v-row>
+                                                    <v-row align="center" justify="center">
+                                                        <div class="video-detection-Wasserstein">
+                                                            <video controls class="video-player">
+                                                                <source src="/mmd-demo/sumo-monaco/variable-selections/Wasserstein.mp4"
+                                                                type="video/mp4">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                            <p class="caption">Variable selection result by Wasserstein distance</p>
+                                                        </div>
+                                                    </v-row>
+                                                </v-expansion-panel-content>
+                                            </v-expansion-panel>
+                                        </v-expansion-panels>
                                 </div>
+                                </v-card>
                             </div>
                         </div>
                     </v-flex>
@@ -324,6 +384,17 @@ export default {
 </script>
 
 <style scoped>
+.h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
 .video-player {
     width: 100%;
     max-width: 500px;
