@@ -11,8 +11,8 @@
             <v-col cols="auto">
               <v-img
               max-width="500"
-              max-height="600"
-              src="https://github.com/Kensuke-Mitsuzawa/Kensuke-Mitsuzawa.github.io/blob/master/images/profile_photo.jpg?raw=true"></v-img>
+              max-height="800"
+              src="/profile_page/profile_photo.jpg"></v-img>
             </v-col>
           </v-row>
           </div>
@@ -124,7 +124,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 /* for japanese */
-@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 
 /* font gaegu */
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -134,14 +134,14 @@ export default {
 
 /* For PC */
 .gaegu-font {
-  font-family: 'Gaegu', cursive, sans-serif;
+  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
   font-size: 20px;
 }
 
 /* For mobile: */
 @media only screen and (max-width: 600px) {
   .gaegu-font {
-    font-family: 'Gaegu', cursive, sans-serif;
+    font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
     font-size: 16px;
   }
 }

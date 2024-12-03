@@ -15,6 +15,8 @@
     },
     "education": {
         "title": "Ausbildungen",
+        "doctor_title": "",
+        "doctor_school": "",
         "master_title": "M.E. in Computational Linguistics",
         "master_school": "Nara Institute of science and Technology",
         "bachelor_title": "B.A. in Foreign Studies (Persian studies)",

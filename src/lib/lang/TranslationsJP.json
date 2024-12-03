@@ -1,7 +1,7 @@
 {
     "abstract": {
         "title": "Abstract",
-        "brief_title": "フランスで博士課程に所属しています。",
+        "brief_title": "機械学習リサーチエンジニア・開発者 (情報工学博士)",
         "introduction": "学部時代で言語学と外国語を学び、修士課程で自然言語処理の研究を始めました。",
         "work_experience": "企業に所属自体には、自然言語処理技術と機械学習を利用したシステム開発を得意としていました。",
         "work_environment": "ドイツに3年、フランスに3年居住しています。英語を基本言語として利用していますが、ドイツ語・フランス語の両方もある程度のレベルまで習得しました。",
@@ -15,9 +15,11 @@
     },
     "education": {
         "title": "学歴",
-        "master_title": "修士 / 計算機言語学",
+        "doctor_title": "博士 (情報工学)",
+        "doctor_school": "Eurecom / ソルボンヌ大学",
+        "master_title": "修士 (計算機言語学)",
         "master_school": "奈良先端科学技術大学院大学",
-        "bachelor_title": "学士 / 外国語",
+        "bachelor_title": "学士 (外国語)",
         "bachelor_school": "大阪大学"
     },
     "languages": {
@@ -25,7 +27,7 @@
         "japanese_name": "日本語",
         "japanese_exp": "母語",
         "english_name": "英語",
-        "english_exp": "ビジネス利用",
+        "english_exp": "標準利用言語",
         "german_name": "ドイツ語",
         "german_exp": "B2",
         "french_name": "フランス語",

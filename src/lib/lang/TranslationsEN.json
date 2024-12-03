@@ -1,10 +1,10 @@
 {
     "abstract": {
         "title": "Abstract",
-        "brief_title": "P.h.d candidate at Eurecom, France with a strong background as a Data Scientist/Data engineer. ",
+        "brief_title": "Research Engineer and Developer in the Field of Data Science (Ph.D. in Informatics from Eurecom/Sorbonne Université).",
         "introduction": "Bachelor's degree in foreign language, Master of Engineering.",
         "work_experience": "I have worked in the industry for 7 years. Abundant and rich experiences in data analysis, machine learning projects, especially Natural Language Processing fields.",
-        "work_environment": "3 years in Germany and 3 years in France. Although English is the default communication language, I have made my best efforts to master local languages.",
+        "work_environment": "3 years in Germany and 3 years in France. Although English is the default language for communication, I have made my best efforts to master the local languages.",
         "research_preference": "",
         "research_experience": "Currently, my research field is in explainable AI, validation of simulation models. I have proposed a variable selection method using Maximum Mean Discrepancy.",
         "end_sentence": "",
@@ -15,17 +15,19 @@
     },
     "education": {
         "title": "Education",
+        "doctor_title": "PhD (Informatics, Data Science)",
+        "doctor_school": "Eurecom/Sorbonne Université",
         "master_title": "M.E. in Computational Linguistics",
-        "master_school": "Nara Institute of science and Technology",
+        "master_school": "Nara Institute of science and Technology, Japan",
         "bachelor_title": "B.A. in Foreign Studies (Persian studies)",
-        "bachelor_school": "Osaka University"
+        "bachelor_school": "Osaka University, Japan"
     },
     "languages": {
         "title": "Languages",
         "japanese_name": "Japanese",
         "japanese_exp": "Native",
         "english_name": "English",
-        "english_exp": "daily use for Business",
+        "english_exp": "Business Daily Use",
         "german_name": "German",
         "german_exp": "B2",
         "french_name": "French",

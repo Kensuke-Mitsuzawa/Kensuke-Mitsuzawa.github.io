@@ -12,6 +12,19 @@
               <v-row align="center" justify="center">
                 <v-col cols="auto">
                   <p class="text font-italic">
+                    PhD Thesis: Comparing high-dimensional data: Interpretable two-sample testing by variable eslection
+                  </p>
+                  <p>
+                    <a href="https://www.eurecom.fr/publication/7711">Link to Eurecom Repository</a>
+                  </p>
+                </v-col>
+              </v-row>
+            </v-card>
+          <!-- =================================== -->
+            <v-card color="white" max-width="1500" elevation="0">
+              <v-row align="center" justify="center">
+                <v-col cols="auto">
+                  <p class="text font-italic">
                     Variable Selection in Maximum Mean Discrepancy for Interpretable Distribution Comparison
                   </p>
                   <p>
