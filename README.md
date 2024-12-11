@@ -1,5 +1,15 @@
 # profile-page
 
+## Build Environment
+
+```
+docker compose -d
+docker exec -it node bash
+```
+
+In the docker container, `cd /work`.
+
+
 ## Project setup
 ```
 npm install

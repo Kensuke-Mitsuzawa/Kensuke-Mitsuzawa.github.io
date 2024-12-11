@@ -5,7 +5,7 @@
         <v-main>
             <div class="mx-8">
                 <v-layout justify-center align-center px-3 py-3 row wrap>
-                    <v-flex text-center lg4 sm12 xs12>
+                    <v-flex text-center lg8 sm12 xs12>
                         <!-- ==================================== -->
                         <div id="" class="gaegu-font">
                             <v-row align="center" justify="center">
@@ -83,7 +83,7 @@
                                 </v-row>
                                 <!-- heatmaps -->
                                 <v-row align="center" justify="center">
-                                    <p><u>Selected Variables</u></p>
+                                    <p class="h3"><u>Selected Variables</u></p>
                                     <p>We compare baselines (Wasserstein-*) and the proposed method (cv-selection).</p>
                                     <p>These heatmaps represents are obtained weights values of variables/features/pixels.</p>
                                     <p>p-value is by a permutation test on test data.</p>
@@ -136,6 +136,18 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 /* for japanese */
 @import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
+
+.h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 
 /* font gaegu */
 .h1,

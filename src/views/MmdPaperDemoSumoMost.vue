@@ -5,7 +5,7 @@
         <v-main>
             <div class="mx-8">
                 <v-layout justify-center align-center px-3 py-3 row wrap>
-                    <v-flex text-center lg4 sm12 xs12>
+                    <v-flex text-center lg8 sm12 xs12>
                         <!-- ==================================== -->
                         <div id="root" class="gaegu-font">
                             <v-card color="white" elevation="0">
@@ -30,11 +30,11 @@
                                         <v-col cols="auto">
                                             <p class="h1"><u>Simulation Scenario</u></p>
                                             <p>
-                                                An original simulation scenario is from <a href="https://github.com/lcodeca/MoSTScenario" target="_blank" rel="noopener noreferrer">"MoSTScenario"</a>.
+                                                There is a simulation scenario <a href="https://github.com/lcodeca/MoSTScenario" target="_blank" rel="noopener noreferrer">"MoSTScenario"</a>.
                                                 We modify this simulation scenario and create a new scenario "road blocking".
-                                                The scenario creation codebase are available <a
+                                                The scenario creation codebase are available on <a
                                                     href="https://github.com/Kensuke-Mitsuzawa/sumo-sim-monaco-scenario"
-                                                    target="_blank" rel="noopener noreferrer">on Github</a>.
+                                                    target="_blank" rel="noopener noreferrer">Github</a>.
                                             </p>
                                         </v-col>
                                     </div>
@@ -203,7 +203,6 @@
                                             <p>
                                                 We apply variable selection algorithms.
                                                 Simply say, we want to discover variables (road-ids) that make the two simulation outcomes different.
-                                                See our paper "TODO; incoming" for details.
                                             </p>
                                         </v-col>
                                     </v-row>
@@ -236,6 +235,32 @@
                                             <p>For each bucket of these 8 buckets, we conduct variable selection.</p>
                                         </v-col>
                                     </v-row>
+
+                                    <div id="variable-detection-algorithm">
+                                        <v-row align="center" justify="center">
+                                            <v-col cols="auto">
+                                                <p class="h3"><u>Variable Selection Framework and Algorithms</u></p>
+                                                    <p>
+                                                        The variable selection is done with our proposed framework "Time-Slicing Variable Selection".
+                                                        See our paper for details.
+                                                    </p>
+
+                                                    <p>
+                                                        The Time-Slicing Variable Selection method allows users to switch between different variable selection algorithms based on their preferences.
+                                                        We set and compare 3 variable selection algorithms.
+                                                    </p>
+
+                                                    <p>
+                                                        "MMD-Selection" and "MMD CV-AGG" are variable selection algorithms using optimisation of the MMD (Maximum Mean Discrepancy) estimator.
+                                                        Please see our previous work for details: <a href="https://arxiv.org/abs/2311.01537" target="_blank">arxiv</a>.
+                                                    </p>
+
+                                                    <p>
+                                                        "Wasserstein" is a marginal variable selection method, using 1-D Wasserstein Distance.
+                                                    </p>
+                                            </v-col>
+                                        </v-row>
+                                    </div>
                                 </div>
                                 </v-card>
                             </div>

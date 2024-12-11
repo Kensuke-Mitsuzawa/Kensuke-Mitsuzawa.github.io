@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node
+    command: tail -F /dev/null
+    entrypoint: tail -F /dev/null
+    volumes:
+      - .:/work:rw
+    ports:
+      - "8080:8080"

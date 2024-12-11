@@ -12,10 +12,30 @@
               <v-row align="center" justify="center">
                 <v-col cols="auto">
                   <p class="text font-italic">
+                    Variable Selection for Comparing High-dimensional Time-Series Data
+                  </p>
+                  <p>
+                  <u>Kensuke Mitsuzawa</u>, Margherita Grossi, Stefano Bortoli, Motonobu Kanagawa
+                  </p>
+                  <p>
+                    <a href="https://arxiv.org/abs/2412.06870" target="_blank">arxiv</a>
+                  </p>
+                  <p>
+                    <router-link to="/publications/mmd-paper-demo-particle-simulation">Demonstration (Particle Simulation)</router-link>
+                  </p>
+                  <p><router-link to="/publications/mmd-paper-demo-sumo-most">Demonstration (Transportation Traffic Simulation)</router-link></p>
+                </v-col>
+              </v-row>
+            </v-card>
+            <!-- =================================== -->
+            <v-card color="white" max-width="1500" elevation="0">
+              <v-row align="center" justify="center">
+                <v-col cols="auto">
+                  <p class="text font-italic">
                     PhD Thesis: Comparing high-dimensional data: Interpretable two-sample testing by variable eslection
                   </p>
                   <p>
-                    <a href="https://www.eurecom.fr/publication/7711">Link to Eurecom Repository</a>
+                    <a href="https://www.eurecom.fr/publication/7711" target="_blank">Link to Eurecom Repository</a>
                   </p>
                 </v-col>
               </v-row>
@@ -31,15 +51,11 @@
                   <u>Kensuke Mitsuzawa</u>, Motonobu Kanagawa, Stefano Bortoli, Margherita Grossi, Paolo Papotti
                   </p>
                   <p>
-                    <a href="https://arxiv.org/abs/2311.01537">arxiv</a>
+                    <a href="https://arxiv.org/abs/2311.01537" target="_blank">arxiv</a>
                   </p>
                   <p>
-                    <router-link to="/publications/mmd-paper-demo-cat-or-dog">Demo (Cat or Dog?)</router-link>
+                    <router-link to="/publications/mmd-paper-demo-cat-or-dog">Demonstration (Cat or Dog?)</router-link>
                   </p>
-                  <p>
-                    <router-link to="/publications/mmd-paper-demo-particle-simulation">Demo (Particle Simulation)</router-link>
-                  </p>
-                  <!-- <p><router-link to="/publications/mmd-paper-demo-sumo-most">Demo (Transportation Traffic Simulation)</router-link></p> -->
                   <p></p>
                 </v-col>
               </v-row>
@@ -57,6 +73,7 @@
                     Yuta Hayashibe and <u>Kensuke Mitsuzawa</u>
                   </p>
                   <p>Proceedings of the 6th Workshop on Noisy User-generated Text. November 2020. (W-NUT 2020)</p>
+                  <p>The setence splitter tool is available on <a href="https://github.com/megagonlabs/bunkai" target="_blank">Github</a>.</p>
                 </v-col>
               </v-row>
             </v-card>

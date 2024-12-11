@@ -61,3 +61,31 @@
     </v-flex>
   </v-layout>
 </template>
+
+
+<style scoped>
+/* for font settings */
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+/* for japanese */
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+/* font gaegu */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Gaegu', 'Yomogi', cursive;
+}
+
+
+/* For PC */
+.gaegu-font {
+  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
+  font-size: 20px;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 600px) {
+  .gaegu-font {
+    font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
+    font-size: 16px;
+  }
+}
+</style>
