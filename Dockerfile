@@ -6,5 +6,5 @@ RUN apt update
 # RUN add-apt-repository ppa:deadsnakes/ppa
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
-RUN apt install python3-pip
-RUN apt install python3-pandas
+RUN apt install -y python3-pip
+RUN apt install -y python3-pandas
