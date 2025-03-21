@@ -8,6 +8,7 @@ import PortfolioGIS from '../views/Portfolio-GIS';
 import MMDPaperDemoCatDog from '../views/MmdPaperDemoCatDog';
 import MmdPaperDemoParticleDNN from '../views/MmdPaperDemoParticleDNN';
 import MmdPaperDemoSumoMost from '../views/MmdPaperDemoSumoMost';
+import TeachingAndTalks from '../views/Teaching-and-Talks.vue';
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,11 @@ const routes = [
     path: '/publications/mmd-paper-demo-sumo-most',
     name: 'MMDPaperDemoSumoMost',
     component: MmdPaperDemoSumoMost,
+  },
+  {
+    path: '/teaching-and-talks',
+    name: 'TeachingAndTalks',
+    component: TeachingAndTalks,
   },
   {
     path: '/projects',

@@ -5,7 +5,7 @@
     </v-toolbar-title>
     <v-spacer class="hidden-sm-and-down"></v-spacer>
 
-    <v-btn class="hidden-sm-and-down" to="/projects">Projects</v-btn>
+    <v-btn class="hidden-sm-and-down" to="/projects">Industrial Projects</v-btn>
     <v-btn class="hidden-md-and-up" to="/projects">
       <v-icon>fas fa-briefcase</v-icon>
     </v-btn>
@@ -17,6 +17,11 @@
 
     <v-btn class="hidden-sm-and-down" to="/publications">Publications</v-btn>
     <v-btn class="hidden-md-and-up" to="/publications">
+      <v-icon>fas fa-newspaper</v-icon>
+    </v-btn>
+
+    <v-btn class="hidden-sm-and-down" to="/teaching-and-talks">Teaching & Talks</v-btn>
+    <v-btn class="hidden-md-and-up" to="/teaching-and-talks">
       <v-icon>fas fa-newspaper</v-icon>
     </v-btn>
   </v-app-bar>
