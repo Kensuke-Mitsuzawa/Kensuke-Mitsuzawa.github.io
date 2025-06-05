@@ -12,6 +12,38 @@
               <v-row align="center" justify="center">
                 <v-col cols="auto">
                   <p class="text font-italic">
+                    MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations
+                  </p>
+                  <p>
+                  <u>Kensuke Mitsuzawa</u>, Damien Garreau
+                  </p>
+                  <p>
+                    <a href="https://arxiv.org/abs/2506.01367" target="_blank">arxiv</a>
+                  </p>
+                </v-col>
+              </v-row>
+            </v-card>
+            <!-- =================================== -->
+            <v-card color="white" max-width="1500" elevation="0">
+              <v-row align="center" justify="center">
+                <v-col cols="auto">
+                  <p class="text font-italic">
+                    MMD-Sense-Analysis: Word Sense Detection Leveraging Maximum Mean Discrepancy
+                  </p>
+                  <p>
+                  <u>Kensuke Mitsuzawa</u>
+                  </p>
+                  <p>
+                    <a href="https://arxiv.org/abs/2506.01602" target="_blank">arxiv</a>
+                  </p>
+                </v-col>
+              </v-row>
+            </v-card>
+            <!-- =================================== -->
+            <v-card color="white" max-width="1500" elevation="0">
+              <v-row align="center" justify="center">
+                <v-col cols="auto">
+                  <p class="text font-italic">
                     Variable Selection for Comparing High-dimensional Time-Series Data
                   </p>
                   <p>
