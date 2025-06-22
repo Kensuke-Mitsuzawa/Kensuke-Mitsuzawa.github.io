@@ -33,11 +33,11 @@
         </v-flex>
       </v-layout>
 
-      <div class="mx-8 gaegu-font">
+      <div class="mx-8">
       <!-- abstract/self-Introduction text -->
       <div id="research topics" class="text-center">
         <p class="h3 text-decoration-underline">Current Research Topics</p>
-        <p>Maximum Mean Discrepancy, Kernel Mean Embedding, Explainable AI</p>
+        <p>Hallucination detection for Large Langugae Models (LLMs), Maximum Mean Discrepancy, Explainable AI</p>
       </div>
       <div id="abstract">
         <v-expansion-panels flat=true>
@@ -53,17 +53,15 @@
             </v-expansion-panel>
           </v-expansion-panels>
       </div>
-
-      <v-divider></v-divider>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
       <DigitalSkills></DigitalSkills>
-      <v-divider></v-divider>
-      <v-divider></v-divider>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
       <Languages></Languages>
-      <v-divider></v-divider>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
       <Education></Education>
-      <v-divider></v-divider>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
       <WorkExperience></WorkExperience>
-      <v-divider></v-divider>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
       <Contact></Contact>
       </div>
       <router-view />
@@ -128,11 +126,17 @@ export default {
 
 /* font gaegu */
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Gaegu', cursive;
+  font-family: cursive;
 }
 
 
 /* For PC */
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
+
+
 .gaegu-font {
   font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
   font-size: 20px;
@@ -143,6 +147,11 @@ export default {
   .gaegu-font {
     font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
     font-size: 16px;
+  }
+
+  .normal-font {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
   }
 }
 

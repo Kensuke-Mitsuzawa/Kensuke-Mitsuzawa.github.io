@@ -66,7 +66,7 @@
         </v-expansion-panels>
       </div>
       <!-- ==================================== -->
-      <div id="progress-bash">
+      <!-- <div id="progress-bash">
         <v-progress-linear
           value="60"
           height="20"
@@ -84,7 +84,7 @@
               <p class="text-center">batch script</p></v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
-      </div>
+      </div> -->
       <!-- ==================================== -->
       <div id="progress-javascript">
         <v-progress-linear
@@ -111,7 +111,7 @@
         </v-expansion-panels>
       </div>
       <!-- ==================================== -->
-      <div id="progress-c">
+      <!-- <div id="progress-c">
         <v-progress-linear
           value="20"
           height="20"
@@ -120,21 +120,10 @@
         >
           <div>C/C++</div>
         </v-progress-linear>
-        <!-- <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">
-              implementation of mathmatical operation for basic algorithm
-              </p></v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels> -->
         <p></p>
-      </div>
+      </div> -->
       <!-- ==================================== -->
-      <div id="progress-java">
+      <!-- <div id="progress-java">
         <v-progress-linear
           value="20"
           height="20"
@@ -144,19 +133,7 @@
           <div>Java</div>
         </v-progress-linear>
         <p></p>
-        <!--
-        <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">
-              basic knowledge
-              </p></v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels> -->
-      </div>
+      </div> -->
     </v-card>
     <!-- Technical Skillsets -->
     <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
@@ -203,11 +180,17 @@
 
 /* font gaegu */
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Gaegu', 'Yomogi', cursive;
+  font-family: cursive;
 }
 
 
 /* For PC */
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
+
+
 .gaegu-font {
   font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
   font-size: 20px;
@@ -218,6 +201,11 @@
   .gaegu-font {
     font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
     font-size: 16px;
+  }
+
+  .normal-font {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
   }
 }
 </style>

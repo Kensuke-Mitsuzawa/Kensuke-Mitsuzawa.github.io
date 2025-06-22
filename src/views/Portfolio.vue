@@ -8,14 +8,18 @@
         <v-flex text-center lg4 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Portfolios</p>
           <div id="section-GIS">
-            <p class="text-h4 text-center display-1 text--primary text-decoration-underline">GIS Analysis</p>
+            <p class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline">GIS Analysis</p>
             <router-link to="/portfolio-gis">Projects related to GIS</router-link>
             <p></p>
           </div>
           <!-- ==================================== -->
+           <v-col cols="auto">
+            <v-divider></v-divider>
+          </v-col>
+          <!-- ==================================== -->
           <div id="section-service">
             <p
-              class="text-h4 text-center display-1 text--primary text-decoration-underline"
+              class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline"
             >Web Service</p>
           </div>
           <v-card color="white" max-width="1500" elevation="0">
@@ -66,9 +70,13 @@
             </v-row>
           </v-card>
           <!-- ==================================== -->
+           <v-col cols="auto">
+            <v-divider></v-divider>
+          </v-col>
+          <!-- ==================================== -->
           <div id="section-python">
             <p
-              class="text-h4 text-center display-1 text--primary text-decoration-underline"
+              class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline"
             >Python packages</p>
           </div>
           <v-card color="white" max-width="1500" elevation="0">

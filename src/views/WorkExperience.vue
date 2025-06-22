@@ -71,11 +71,17 @@
 
 /* font gaegu */
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Gaegu', 'Yomogi', cursive;
+  font-family: cursive;
 }
 
 
 /* For PC */
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
+
+
 .gaegu-font {
   font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
   font-size: 20px;
@@ -86,6 +92,11 @@
   .gaegu-font {
     font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
     font-size: 16px;
+  }
+
+  .normal-font {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
   }
 }
 </style>

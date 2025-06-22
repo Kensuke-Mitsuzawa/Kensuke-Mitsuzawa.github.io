@@ -5,7 +5,7 @@
     <v-main>
       <div class="mx-8">
       <v-layout justify-center align-center px-3 py-3 row wrap>
-        <v-flex text-center lg4 sm12 xs12>
+        <v-flex text-center lg8 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Publications</p>
           <div id="international">
             <v-card color="white" max-width="1500" elevation="0">
@@ -23,12 +23,15 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
             <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
                 <v-col cols="auto">
                   <p class="text font-italic">
-                    MMD-Sense-Analysis: Word Sense Detection Leveraging Maximum Mean Discrepancy
+                    Word Sense Detection Leveraging Maximum Mean Discrepancy
                   </p>
                   <p>
                   <u>Kensuke Mitsuzawa</u>
@@ -39,6 +42,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
             <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -59,6 +65,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
             <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -72,6 +81,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
           <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -92,6 +104,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
           <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -109,6 +124,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
             <!-- =================================== -->
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -126,6 +144,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
 
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -142,6 +163,9 @@
                 </v-col>
               </v-row>
             </v-card>
+            <v-col cols="auto" style="background-color: lightblue;">
+              <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
 
             <v-card color="white" max-width="1500" elevation="0">
               <v-row align="center" justify="center">
@@ -161,6 +185,9 @@
             </v-card>
           </div>
 
+          <v-col cols="auto" style="background-color: lightblue;">
+            <v-divider class="border-opacity-50"></v-divider>
+          </v-col>
           <div id="jp-only">
             <p class="text-h6">Japanese only</p>
             <v-card color="white" max-width="1500" elevation="0">

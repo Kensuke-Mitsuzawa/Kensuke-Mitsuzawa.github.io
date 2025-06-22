@@ -7,7 +7,7 @@
                 <v-layout justify-center align-center px-3 py-3 row wrap>
                     <v-flex text-center lg8 sm12 xs12>
                         <!-- ==================================== -->
-                        <div id="root" class="gaegu-font">
+                        <div id="root" class="normal-font">
                             <v-card color="white" elevation="0">
                                 <!-- task goal -->
                                 <v-row align="center" justify="center">
@@ -419,6 +419,11 @@ export default {
     font-weight: bold;
 }
 
+
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
 
 .video-player {
     width: 100%;

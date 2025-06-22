@@ -5,38 +5,44 @@
     <v-main>
     <div class="mx-5">
       <v-layout justify-center px-3 py-3 row wrap>
-        <v-flex text-center lg4 sm12 xs12>
-          <p class="text-h4 hidden-md-and-up">Projects</p>
+        <v-flex text-center lg8 sm12 xs12>
+          <p class="hidden-md-and-up">Projects</p>
           <!-- body -->
-          <div>
-          <v-expansion-panels flat=true>
-          <v-expansion-panel>
-          <v-expansion-panel-header>
-          <p class="text-decoration-underline text-center">
-          <v-icon>far fa-hand-point-right</v-icon>&nbsp;News distribution system</p>
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-          <v-card color="white" elevation="0">
-            <p class="text-h6 font-italic">nondisclosure</p>
-            <p class="text">Feb 2020 - April 2020</p>
-            <p>The project team would like to send news text automatically depending on the preference of their readers.
-              In other words, the automation of news distributions.
-              For these requirements, I constructed the news distribution system on AWS, as well as,
-              an admin web-application for the distribution system.
-              The system chooses preferred news content for each reader, which is realized by machine-learning techniques. The system works on AWS with a serverless style.</p>
-            <p class="text-h6 font-italic">Keywords</p>
-            <p>AWS-SNS, Flask / AWS-Lambda for web-appliaction, AWS-ECS, scikit-learn</p>
-          </v-card>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
+          <div id="project-2020">
+            <v-expansion-panels flat=true>
+            <v-expansion-panel>
+            <v-expansion-panel-header>
+              <p class="text-h6 text-center">
+                <v-icon>far fa-hand-point-right</v-icon>
+                News distribution system (2020)
+              </p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+            <v-card color="white" elevation="0">
+              <p class="text-h6 font-italic">nondisclosure</p>
+              <p class="text">Feb 2020 - April 2020</p>
+              <p>
+                The request of project team: sending news text automatically depending on the preference of their readers (recommendation system).
+                For these requirements, I constructed the news distribution system using components of AWS, and works a serverless style.
+                I also implemented admin web-application for the distribution system.
+                The system selects preferred news content for each news subscriber, which is realized by machine-learning techniques.
+              </p>
+              <p class="text-h6 font-italic">Keywords</p>
+              <p>AWS-SNS, Flask / AWS-Lambda for web-appliaction, AWS-ECS, scikit-learn</p>
+            </v-card>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
         </div>
 
         <div>
         <v-expansion-panels flat=true>
         <v-expansion-panel>
         <v-expansion-panel-header>
-          <p class="text-decoration-underline text-center"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Keyword extraction system</p>
+          <p class="text-h6 text-center">
+            <v-icon>far fa-hand-point-right</v-icon>
+            Keyword extraction system (2019)
+          </p>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
@@ -44,14 +50,13 @@
             <p class="text">July 2019 - Nov 2019</p>
 
             <p>
-              The project team would like to know topics in society.
-              They could utilize the topics for their analysis-works.
-              To meet the requirements, I constructed a news collection system from a major news source.
-              As well as, news collection system, I constructed also a keyword extraction system with the named-entity-extraction approach.
-              Finally, the extracted named-entities are rendered with visualization.
+              The project requirement: Collecting topics described and discussed in news articles.
+              I constructed a news collection system and text analysis system.
+              The news collection system fetches news texts from a major news distributers,
+              and the keyword extraction system picks up keywords (Named-Entity).
+              The statistics of extracted keywords are visualized and saved into a HTML file.
               The system works on AWS with a serverless style.
             </p>
-            <p>The system works on AWS with serverless style.</p>
 
             <p class="text-h6 font-italic">Keywords</p>
             <p>NLP&nbsp;(for German), web-scraping, named-entity-extraction&nbsp;(Spacy), visualization, AWS-ECS</p>
@@ -66,7 +71,10 @@
         <v-expansion-panels flat=true>
         <v-expansion-panel>
         <v-expansion-panel-header>
-          <p class="text-center text-decoration-underline"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Text summarization system</p>
+          <p class="text-h6 text-center">
+              <v-icon>far fa-hand-point-right</v-icon>
+              Text summarization system (2019)
+          </p>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
@@ -74,12 +82,12 @@
             <p class="text">April 2019 - July 2019</p>
 
             <p>
-              The project team publishes news texts every day.
-              The news text is normally long, therefore, it takes to time to read throughout.
-              On the other hand, readers would like to know news content at a glance.
-              To resolve the gap between news editors and newsreaders, I introduced a text-summarization system. The system works on AWS with a serverless style.
+              The client publishes news texts and distributes to subscribers every day.
+              As the consequence of user behavior analysis on the web site, readers often stop reading the news article and leave the page.
+              To enhance the readers user-experience, the text summarization system is introduced.
+              I implemented the text summarization algorithm from scratch (Python), and constructed data processing pipeline on AWS.
+              The system works on AWS with a serverless style.
             </p>
-
             <p class="text-h6 font-italic">Keywords</p>
             <p>NLP, summarization, AWS-ECS</p>
           </v-card>
@@ -92,7 +100,10 @@
         <v-expansion-panels flat=true>
         <v-expansion-panel>
         <v-expansion-panel-header>
-          <p class="text-center text-decoration-underline"><v-icon>far fa-hand-point-right</v-icon>&nbsp;Entity extraction from review texts</p>
+          <p class="text-h6 text-center">
+            <v-icon>far fa-hand-point-right</v-icon>
+            Named-Entity extraction from review texts (2019-2020)
+        </p>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
@@ -120,8 +131,10 @@
         <v-expansion-panel>
         <v-expansion-panel-header>
             <p
-              class="text-center text-decoration-underline"
-            ><v-icon>far fa-hand-point-right</v-icon>&nbsp;Information Extractons from an opinion platform</p>
+              class="text-h6 text-center"
+            ><v-icon>far fa-hand-point-right</v-icon>
+            Information Extractons from an opinion platform (2015-2018)
+          </p>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
@@ -150,19 +163,19 @@
             <p>三澤賢祐, 田内真惟人, Mathieu Domoulin, 中島正成, 水本智也. ネガティブ評判情報に特化したコーパスの構築と分析. 言語処理学会第22回年次大会 発表論文集, pp.501-504, March 2016.</p>
             <p>三澤賢祐, 田内真惟人, Mathieu Domoulin, 中島正成, 水本智也. 意見投稿プラットフォームにおける意見クラスタリングの試み. 言語処理学会第22回年次大会 発表論文集, pp.1037-1040, March 2016.</p>
 
-            <p class="text-h6 font-italic">Other projects</p>
+            <p class="text-h6 text-center font-italic">Research Activities</p>
             <v-expansion-panels flat="true">
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <p>
+                  <p class="text-center">
                     <v-icon>far fa-hand-point-right</v-icon>&nbsp;Mentorings of stundents from computational linguistics field
                   </p>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
-                    I mentored 7 internship students. Some of students are from outside of Japan.
-                    Therefore, the communication language was sometimes English.
-                    Some of internship works were finally into publications of reseach papers.
+                    Supervising 7 master students for internship programs.
+                    Some of students are non-Japan, and the communication language was sometimes English.
+                    The outcomes went into publications.
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -170,16 +183,15 @@
             <v-expansion-panels flat="true">
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <p>
+                  <p class="text-center">
                     <v-icon>far fa-hand-point-right</v-icon>&nbsp;Administrator of servers for system
                   </p>
                 </v-expansion-panel-header>
                 <p></p>
                 <v-expansion-panel-content>
                   <p>
-                    I set up Linux servers for machine learnings environments.
-                    As well as setting-ups, an administrator and maintainance of servers are also my task.
-                    In the end, I was a person in charge to migrate internal servers into AWS.
+                    Setting up Linux servers for machine learnings environments (A Spark Cluster composed by 3 machines).
+                    Managing the cluster and machines as the administrator and maintainance.
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -201,8 +213,9 @@
         <v-expansion-panel>
         <v-expansion-panel-header>
             <p
-              class="text-center text-decoration-underline"
-            ><v-icon>far fa-hand-point-right</v-icon>&nbsp;User behavior analysis on vide games in mobile devices</p>
+              class="text-h6 text-center"
+            ><v-icon>far fa-hand-point-right</v-icon>
+            User behavior analysis on vide games in mobile devices (2014)</p>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card color="white" max-width="1500" elevation="0">
@@ -227,7 +240,7 @@
           </v-expansion-panels>
         </div>
         <!-- ================================ -->
-        <div>
+        <!-- <div id="master-project">
         <v-expansion-panels flat=true>
         <v-expansion-panel>
         <v-expansion-panel-header>
@@ -256,8 +269,9 @@
           </v-expansion-panel-content>
           </v-expansion-panel>
           </v-expansion-panels>
-          </div>
+          </div> -->
           <!-- ================================ -->
+        <!-- <div id="bachelor-project">
         <v-expansion-panels flat=true>
         <v-expansion-panel>
         <v-expansion-panel-header>
@@ -280,6 +294,7 @@
           </v-expansion-panel-content>
           </v-expansion-panel>
           </v-expansion-panels>
+        </div> -->
         </v-flex>
       </v-layout>
     </div>

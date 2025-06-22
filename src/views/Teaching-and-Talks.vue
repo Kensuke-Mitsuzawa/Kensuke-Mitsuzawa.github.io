@@ -5,7 +5,7 @@
       <v-main>
         <div class="mx-8">
         <v-layout justify-center align-center px-3 py-3 row wrap>
-          <v-flex text-center lg4 sm12 xs12>
+          <v-flex text-center lg8 sm12 xs12>
             <div id="Talks">
                 <p class="text-h4 text-center display-1 text--primary text-decoration-underline">Talks</p>
                 <v-card color="white" max-width="1500" elevation="0">

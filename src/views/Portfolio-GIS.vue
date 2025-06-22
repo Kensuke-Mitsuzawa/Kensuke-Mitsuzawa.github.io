@@ -7,7 +7,7 @@
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
           <!-- ==================================== -->
-          <div id="" class="gaegu-font">
+          <div id="" class="normal-font">
           <v-card color="white" max-width="1500" elevation="0">
             <v-row align="center" justify="center">
               <v-col cols="auto">
@@ -162,9 +162,13 @@ export default {
 
 /* font gaegu */
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Gaegu', cursive;
+  font-family: cursive;
 }
 
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
 
 /* For PC */
 .gaegu-font {
@@ -177,6 +181,11 @@ export default {
   .gaegu-font {
     font-family: 'Gaegu', cursive, sans-serif;
     font-size: 16px;
+  }
+
+  .normal-font {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
   }
 }
 </style>

@@ -7,7 +7,7 @@
                 <v-layout justify-center align-center px-3 py-3 row wrap>
                     <v-flex text-center lg8 sm12 xs12>
                         <!-- ==================================== -->
-                        <div id="" class="gaegu-font">
+                        <div id="" class="normal-font">
                             <v-row align="center" justify="center">
                                     <v-col cols="auto">
                                         <p class="h1"><u>Demo: Cat or Dog Example</u></p>
@@ -160,6 +160,12 @@ export default {
 }
 
 /* For PC */
+.normal-font {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
+
+
 .gaegu-font {
     font-family: 'Gaegu', cursive, sans-serif;
     font-size: 20px;
@@ -170,6 +176,11 @@ export default {
     .gaegu-font {
         font-family: 'Gaegu', cursive, sans-serif;
         font-size: 16px;
+    }
+
+    .normal-font {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
     }
 }
 </style>
