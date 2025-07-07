@@ -8,6 +8,64 @@
         <v-flex text-center lg8 sm12 xs12>
           <p class="hidden-md-and-up">Projects</p>
           <!-- body -->
+          <div id="project-2024">
+            <v-expansion-panels flat=true>
+            <v-expansion-panel>
+            <v-expansion-panel-header>
+              <p class="text-h6 text-center">
+                <v-icon>far fa-hand-point-right</v-icon>
+                Code Refactoring and Reorganisation (2024)
+              </p>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+            <v-card color="white" elevation="0">
+              <p class="text-h6 font-italic">nondisclosure</p>
+              <p class="text">October 2024 - November 2024</p>
+
+              <div id="project-2024-background-objectives">
+                <p class="text-h5 font-italic">Background and Objectives</p>
+                <p>The project employed GeoClaw, an open-source tsunami simulation framework, to estimate disaster levels in coastal regions.
+                  The simulation workflow required human-in-the-loop iterations: configuring parameters, executing simulations, and manually inspecting results.
+                </p>
+                <p>However, several critical bottlenecks hindered efficiency and scalability:</p>
+
+                <p>1. The codebase and documentation were poorly maintained, originally developed by a researcher without production-level engineering standards.</p>
+                <p>2. The entire simulation process was embedded in a single Jupyter notebook, which lacked modularity and made reusability and testing difficult.</p>
+                <p>3. Simulation parameters were hard-coded, undocumented, and dispersed, making it difficult to reproduce experiments or maintain version control.</p>
+                <p>4. Understanding the parameters often required cross-referencing academic papers that did not explicitly describe the implementation.</p>
+                <p>5. The visualisation tools were outdated, slow, and not user-friendly, severely limiting the interpretability of simulation results.</p>
+              </div>
+
+              <div id="project-2024-my-contribution">
+                <p class="text-h5 font-italic">My Contribution</p>
+                <p>I led a major overhaul of the project’s technical foundation, focusing on software modularity, reproducibility, and visualisation modernisation:</p>
+
+
+                <p class="text-h6 font-italic">Code Refactoring and Reorganisation:</p>
+                <p>I analysed the existing Jupyter notebook and restructured the code into a well-organised Python package.
+                  The refactored system separated concerns into distinct modules (e.g. execution logic, parameter configuration, result handling).</p>
+                <p>All simulation parameters were externalised into a clearly documented TOML configuration file, enabling reproducibility and change tracking via Git.</p>
+                <p>The codebase was brought up to industrial-quality standards with comprehensive in-line documentation.</p>
+
+                <p class="text-h6 font-italic">Systematic Simulation Execution:</p>
+                <p>I implemented a new module to manage simulation jobs systematically, storing results in a structured database.
+                  This design aligned with the on-premise computational environment and facilitated batch execution, logging, and progress monitoring.
+                </p>
+
+                <p class="text-h6 font-italic">Visualisation System Modernisation:</p>
+                <p>I redesigned the visualisation pipeline to replace the outdated and convoluted Python 3.7 scripts.</p>
+                <p>I integrated Kepler.gl, a modern web-based visualisation library, and MLflow, enabling interactive and scalable result exploration.</p>
+                <p>The new system significantly improved performance and usability, making the simulation results more accessible to both technical and non-technical stakeholders.</p>
+              </div>
+
+              <p class="text-h5 font-italic">Keywords</p>
+              <p>Systematic Simulation Execution (GeoClaw), Modernisation of Visualisation Systems (MLflow, Kepler.gl)</p>
+            </v-card>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
+        </div>
+
           <div id="project-2020">
             <v-expansion-panels flat=true>
             <v-expansion-panel>
