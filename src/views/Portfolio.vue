@@ -7,68 +7,70 @@
       <v-layout justify-center align-center px-3 py-3 row wrap>
         <v-flex text-center lg4 sm12 xs12>
           <p class="text-h4 hidden-md-and-up">Portfolios</p>
+          <!-- ==================================== -->
+          <div id="section-LLM">
+            <p class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline">AI powered tools</p>
+            <p></p>
+              <v-card color="white" max-width="1500" elevation="0">
+                <v-row align="center" justify="center">
+                  <v-col cols="auto">
+                    <p class="text-h5 display-1 text--primary">LangDiaryAgentic</p>
+                    <div
+                      class="text--primary"
+                    >
+                    <p><a target="_blank" href="https://github.com/Kensuke-Mitsuzawa/showcase-LangDiaryAgentic">Github repository</a></p>
+                    <p class="text-h6 display-1 text--primary">Project purpose</p>
+                    <p>A privacy-first AI diary platform designed to solve the "vocabulary gap" for language learners.</p>
+                    <p>It allows users to write with mixing native and target languages,</p>
+                    <p>while an Agentic pipeline translates, corrects grammar, and retrieves past errors to provide personalized, context-aware coaching.</p>
+                    </div>
+                  </v-col>
+                </v-row>
+                <v-row align="center" justify="center">
+                  <v-col cols="auto">
+                    <div class="video-LangDiaryAgentic">
+                      <video width="450" controls class="video-player">
+                        <source src="/portfolio/LangDiaryAgentic.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                      </div>
+                  </v-col>
+                </v-row>
+                <v-row align="center" justify="center">
+                  <v-col>
+                    <v-expansion-panels flat=true>
+                      <v-expansion-panel>
+                        <v-expansion-panel-header>
+                          <p class="text-center">
+                            <v-icon>far fa-hand-point-right</v-icon>&nbsp;Technology stack
+                          </p>
+                        </v-expansion-panel-header>
+                        <v-expansion-panel-content>
+                          <p class="text-h6 text-center">Architecture</p>
+                          <p>Agentic RAG (Retrieval-Augmented Generation) pipeline using LangChain & LangGraph.</p>
+                          <p class="text-h6 text-center">Data Engineering</p>
+                          <p>Hybrid memory architecture with ChromaDB (Vector Search for error history) and DuckDB (Structured storage for diary entries).</p>
+                          <p class="text-h6 text-center">Infrastructure</p>
+                          <p>Fully local deployment pipeline supporting NVIDIA GPUs, optimized with uv package management.</p>
+                          <p class="text-h6 text-center">Full-Stack</p>
+                          <p>FastAPI backend with a reactive Streamlit frontend.</p>
+                        </v-expansion-panel-content>
+                      </v-expansion-panel>
+                    </v-expansion-panels>
+                  </v-col>
+                </v-row>
+              </v-card>
+          </div>
+          <!-- ==================================== -->
+          <v-col cols="auto">
+            <v-divider></v-divider>
+          </v-col>
+          <!-- ==================================== -->
           <div id="section-GIS">
             <p class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline">GIS Analysis</p>
             <router-link to="/portfolio-gis">Projects related to GIS</router-link>
             <p></p>
           </div>
           <!-- ==================================== -->
-           <v-col cols="auto">
-            <v-divider></v-divider>
-          </v-col>
-          <!-- ==================================== -->
-          <div id="section-service">
-            <p
-              class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline"
-            >Web Service</p>
-          </div>
-          <v-card color="white" max-width="1500" elevation="0">
-            <v-row align="center" justify="center">
-              <v-col cols="auto">
-                <p class="text-h5 display-1 text--primary">MuSpNa</p>
-                <!-- <a href="https://www.mu-sp-na.tk/">URL</a> -->
-                <div
-                  class="text--primary"
-                >
-                <p>A web application to help a language learner develop reading abilities.</p>
-                <p>Language learners could understand foreign texts with the supports of translations and grammatical hints.</p>
-                <p>This service is closed already.</p>
-                </div>
-              </v-col>
-            </v-row>
-            <v-row align="center" justify="center">
-              <v-col cols="auto">
-                <v-img
-                max-height="400"
-                max-width="600"
-                src="https://user-images.githubusercontent.com/1772712/89827543-08d4f300-db58-11ea-9240-d438f41025e2.gif">
-                </v-img>
-              </v-col>
-            </v-row>
-            <v-row align="center" justify="center">
-              <v-col>
-                <v-expansion-panels flat=true>
-                  <v-expansion-panel>
-                    <v-expansion-panel-header>
-                      <p class="text-center">
-                        <v-icon>far fa-hand-point-right</v-icon>&nbsp;Technology stack for MuSpNa
-                      </p>
-                    </v-expansion-panel-header>
-                    <v-expansion-panel-content>
-                      <p>The architecture of MuSpNa is all server-less on AWS.</p>
-                      <p class="text-h6 text-center">[Batch jobs]</p>
-                      <p>ECS, AWS lambda, S3, Elastic Search.</p>
-                      <p>Source codes for information extraction are full-scratch.</p>
-                      <p class="text-h6 text-center">[Webapp backend]</p>
-                      <p>Flask, AWS lambda, S3 and DynamoDB.</p>
-                      <p class="text-h6 text-center">[Frontend]</p>
-                      <p>Vue.js</p>
-                    </v-expansion-panel-content>
-                  </v-expansion-panel>
-                </v-expansion-panels>
-              </v-col>
-            </v-row>
-          </v-card>
+
           <!-- ==================================== -->
            <v-col cols="auto">
             <v-divider></v-divider>
@@ -78,7 +80,6 @@
             <p
               class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline"
             >Python packages</p>
-          </div>
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
               <p class="text-h5 display-1 text--primary">JapaneseTokenizer</p>
@@ -156,9 +157,8 @@
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
               <p class="text-h5 display-1 text--primary">sumo-output-parsers</p>
-              <div
-                class="text--primary"
-              >A postprocessing package of SUMO XML files. The package converts complicated XML into matrices with one command.</div>
+              <p class="text--primary">A postprocessing package of SUMO XML files.</p>
+              <p>The package converts complicated XML into matrices with one command.</p>
               <p>
                 <a href="https://github.com/Kensuke-Mitsuzawa/sumo_docker_pipeline">On Github</a>&nbsp;
                 <a href="https://pypi.org/project/sumo-output-parsers/">On Pypi</a>
@@ -168,15 +168,72 @@
           <v-card color="white" max-width="1500" elevation="0">
             <v-col cols="auto">
               <p class="text-h5 display-1 text--primary">sumo-docker-pipeline</p>
-              <div
-                class="text--primary"
-              >A wrapper package for a traffic simulator, SUMO. The package lets call SUMO by Python without any difficulties of installing SUMO, thanks to Docker.</div>
+              <p class="text--primary">A wrapper package for a traffic simulator, SUMO.</p>
+              <p>The package lets call SUMO by Python without any difficulties of installing SUMO, thanks to Docker.</p>
               <p>
                 <a href="https://github.com/Kensuke-Mitsuzawa/sumo_docker_pipeline">On Github</a>&nbsp;
                 <a href="https://pypi.org/project/sumo-docker-pipeline/">On Pypi</a>
               </p>
             </v-col>
           </v-card>
+           <v-col cols="auto">
+            <v-divider></v-divider>
+          </v-col>
+          </div>
+          <!-- ==================================== -->
+          <div id="section-service">
+            <p
+              class="text-h4 font-italic text-center display-1 text--primary text-decoration-underline"
+            >Web Service</p>
+          <v-card color="white" max-width="1500" elevation="0">
+            <v-row align="center" justify="center">
+              <v-col cols="auto">
+                <p class="text-h5 display-1 text--primary">MuSpNa</p>
+                <!-- <a href="https://www.mu-sp-na.tk/">URL</a> -->
+                <div
+                  class="text--primary"
+                >
+                <p>A web application to help a language learner develop reading abilities.</p>
+                <p>Language learners could understand foreign texts with the supports of translations and grammatical hints.</p>
+                <p>This service is closed already.</p>
+                </div>
+              </v-col>
+            </v-row>
+            <v-row align="center" justify="center">
+              <v-col cols="auto">
+                <v-img
+                max-height="400"
+                max-width="600"
+                src="https://user-images.githubusercontent.com/1772712/89827543-08d4f300-db58-11ea-9240-d438f41025e2.gif">
+                </v-img>
+              </v-col>
+            </v-row>
+            <v-row align="center" justify="center">
+              <v-col>
+                <v-expansion-panels flat=true>
+                  <v-expansion-panel>
+                    <v-expansion-panel-header>
+                      <p class="text-center">
+                        <v-icon>far fa-hand-point-right</v-icon>&nbsp;Technology stack for MuSpNa
+                      </p>
+                    </v-expansion-panel-header>
+                    <v-expansion-panel-content>
+                      <p>The architecture of MuSpNa is all server-less on AWS.</p>
+                      <p class="text-h6 text-center">[Batch jobs]</p>
+                      <p>ECS, AWS lambda, S3, Elastic Search.</p>
+                      <p>Source codes for information extraction are full-scratch.</p>
+                      <p class="text-h6 text-center">[Webapp backend]</p>
+                      <p>Flask, AWS lambda, S3 and DynamoDB.</p>
+                      <p class="text-h6 text-center">[Frontend]</p>
+                      <p>Vue.js</p>
+                    </v-expansion-panel-content>
+                  </v-expansion-panel>
+                </v-expansion-panels>
+              </v-col>
+            </v-row>
+          </v-card>
+          </div>
+          <!-- ==================================== -->
         </v-flex>
       </v-layout>
       </div>
@@ -194,3 +251,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.videotag{
+    position: relative;
+    top: 0;
+    bottom: 1vw;
+    width: 50%;
+    height: 50%;
+    outline: none;
+}
+</style>
