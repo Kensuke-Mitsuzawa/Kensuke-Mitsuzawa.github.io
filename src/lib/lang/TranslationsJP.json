@@ -1,12 +1,12 @@
 {
     "abstract": {
         "title": "Abstract",
-        "brief_title": "機械学習リサーチエンジニア・開発者 (情報工学博士)",
-        "introduction": "学部時代で言語学と外国語を学び、修士課程で自然言語処理の研究を始めました。",
-        "work_experience": "企業に所属時には、自然言語処理技術と機械学習を利用したシステム開発を得意としていました。",
-        "work_environment": "ドイツに3年、フランスに3年居住しています。英語を基本言語として利用していますが、ドイツ語・フランス語の両方もある程度のレベルまで習得しました。",
+        "brief_title": "AI/LLM/機械学習リサーチエンジニア(情報工学博士)。",
+        "introduction": "LLMの信頼性評価と評価システムの構築を得意とします。カーネル法に基づく機械学習への理解が深く、AI/LLMシステムの評価にカーネル法を利用した手法の開発と提案をしています。",
+        "work_experience": "",
+        "work_environment": "2019年からEU地域に居住。英語を基本言語として利用していますが、ドイツ語・フランス語の両方も理解します。PhDをフランスで取得し、ドイツとフランスの両国で多言語環境において成果を出しています。",
         "research_preference": "",
-        "research_experience": "現在の研究分野は説明可能AI, シミュレーションモデルのパラメタ推定。具体的にはMaximum Mean Discrepancyを利用した変数選択の研究をしています。",
+        "research_experience": "",
         "end_sentence": "",
         "notation": ""
     },

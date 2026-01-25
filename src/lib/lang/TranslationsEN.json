@@ -1,13 +1,13 @@
 {
     "abstract": {
         "title": "Abstract",
-        "brief_title": "Research Engineer and Developer in the Field of Data Science (Ph.D. in Informatics from Eurecom/Sorbonne Université).",
-        "introduction": "Bachelor's degree in foreign language, Master of Engineering.",
-        "work_experience": "I have worked in the industry for 7 years. Abundant and rich experiences in data analysis, machine learning projects, especially Natural Language Processing fields.",
-        "work_environment": "3 years in Germany and 3 years in France. Although English is the default language for communication, I have made my best efforts to master the local languages.",
+        "brief_title": "Ph.D. in Informatics (Sorbonne Université).",
+        "introduction": "I architect and deploy robust Large Language Model (LLM) pipelines with a dedicated focus on model trustworthiness and hallucination mitigation. By bridging the gap between engineering and research, I apply Explainable AI (XAI) and Kernel-based methods to ensure statistical rigor in the validation of simulation models and modern AI architectures.",
+        "work_experience": "",
+        "work_environment": "As an internationally adaptive professional with 7 years of industrial experience, I bring a proven track record of flexibility across borders. Having spent two years in Germany and five years in France, I thrive in trilingual, culturally nuanced environments. I specialize in translating English-led communication into localized technical success, ensuring high-level research is applicable in any global market.",
         "research_preference": "",
-        "research_experience": "Currently, my research field is in explainable AI, validation of simulation models. I have proposed a variable selection method using Maximum Mean Discrepancy.",
-        "end_sentence": "Here is my skill in bullet lines, <br />\n\nResearch fields with rich experiences in: Large Language Models, Probabilistic machine learning methods (Kernel methods). <br />\n\nProgramming Skills: Advanced Python and Frontend frameworks. <br />\n\nCI/CD Skills: Docker. <br />\n\nCloud Platforms: AWS, GCP.  <br />\n\nIndustrial experiences: 7 years. <br />",
+        "research_experience": "",
+        "end_sentence": "",
         "notation": ""
     },
     "digital_skills": {
