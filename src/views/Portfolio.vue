@@ -21,8 +21,9 @@
                     <p><a target="_blank" href="https://github.com/Kensuke-Mitsuzawa/showcase-LangDiaryAgentic">Github repository</a></p>
                     <p class="text-h6 display-1 text--primary">Project purpose</p>
                     <p>A privacy-first AI diary platform designed to solve the "vocabulary gap" for language learners.</p>
-                    <p>It allows users to write with mixing native and target languages,</p>
-                    <p>while an Agentic pipeline translates, corrects grammar, and retrieves past errors to provide personalized, context-aware coaching.</p>
+                    <p>It allows users to write with mixing native and target languages,
+                      while an Agentic pipeline translates, corrects grammar, and retrieves past errors to provide personalized, context-aware coaching.</p>
+                    <p>It runs fully on the local environment (even CPUs). No cloud communications are necessary.</p>
                     </div>
                   </v-col>
                 </v-row>
@@ -49,9 +50,9 @@
                           <p class="text-h6 text-center">Data Engineering</p>
                           <p>Hybrid memory architecture with ChromaDB (Vector Search for error history) and DuckDB (Structured storage for diary entries).</p>
                           <p class="text-h6 text-center">Infrastructure</p>
-                          <p>Fully local deployment pipeline supporting NVIDIA GPUs, optimized with uv package management.</p>
+                          <p>Fully local deployment pipeline with Ollama.cpp.</p>
                           <p class="text-h6 text-center">Full-Stack</p>
-                          <p>FastAPI backend with a reactive Streamlit frontend.</p>
+                          <p>Backend and reactive frontend (Flask + bootstrap).</p>
                         </v-expansion-panel-content>
                       </v-expansion-panel>
                     </v-expansion-panels>

@@ -36,18 +36,16 @@
       <div class="mx-8">
       <!-- abstract/self-Introduction text -->
       <div id="research topics" class="text-center">
-        <p class="h3 text-decoration-underline">Current Research Topics</p>
-        <p>Hallucination detection for Large Langugae Models (LLMs), Maximum Mean Discrepancy, Explainable AI</p>
+        <p class="text-decoration-underline h2">Current Research Topics</p>
+        <p class="h2 gaegu-font">Hallucination of LLMs, Maximum Mean Discrepancy, Explainable AI</p>
       </div>
       <div id="abstract">
         <v-expansion-panels flat=true>
           <v-expansion-panel>
-            <v-expansion-panel-header>
-            <p class="h2 text-center">
-            <v-icon>far fa-hand-point-right</v-icon>&nbsp;Self Introduction
-            </p>
+            <v-expansion-panel-header class="h2 text-center">
+              <p>👉 Self Introduction</p>
             </v-expansion-panel-header>
-            <v-expansion-panel-content>
+            <v-expansion-panel-content class="normal-font">
             <AbstractSection></AbstractSection>
             </v-expansion-panel-content>
             </v-expansion-panel>
@@ -124,9 +122,35 @@ export default {
 /* for japanese */
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 
-/* font gaegu */
-.h1, .h2, .h3, .h4, .h5, .h6 {
+/* .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: cursive;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: cursive;
+  font-weight: bold; /* Optional: Ensure they stay bold */
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+.h1 {
+  font-family: cursive;
+  font-size: 28px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
+}
+
+.h2 {
+  font-family: cursive;
+  font-size: 24px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
+}
+
+.h3 {
+  font-family: cursive;
+  font-size: 21px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
 }
 
 

@@ -1,215 +1,181 @@
 <template>
-  <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
-    <p class="h2 text-center text-decoration-underline">Digital skills</p>
-    <!-- Programming language -->
-    <v-card class="mx-auto" color="white" max-width="1400" flat="false" elevation="0">
-      <p class="h2 text-center">
-        <v-icon>fas fa-laptop</v-icon>
-        &nbsp;{{ $t('digital_skills.title_programming') }}
-      </p>
-      <!-- ==================================== -->
-      <div id="progress-python">
-        <v-progress-linear
-          value="90"
-          height="20"
-          background-color="blue lighten-3"
-          color="blue lighten-1"
-        >
-          <div>Python</div>
-        </v-progress-linear>
-        <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header><p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">Packaging,<br>
-              Web app&nbsp;(Flask, Django),<br>
-              Natural language processing for Japanese, English, German&nbsp;(HuggingFace, NLTK, spaCy),<br>
-              Machine learning&nbsp;(scikit-learn etc.),<br>
-              Deep learning&nbsp;(Tensorflow, Pytorch),<br>
-              Data analysis script&nbsp;(Jupyter notebook),<br>
-              Data visualization,<br>
-              Code optimization&nbsp;(Cython)<br>
-              Tsunami Simulation&nbsp;(GeoClaw)<br>
-              Traffic simulation&nbsp;(SUMO, please see my portfolio too)<br>
-              GIS Analysis (QGIS, Kepler.gl, please see my portfolio too)
-            </p>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-      </div>
-      <!-- ==================================== -->
-      <div id="progress-R">
-        <v-progress-linear
-          value="70"
-          height="20"
-          background-color="green lighten-3"
-          color="green lighten-1"
-        >
-          <div>R</div>
-        </v-progress-linear>
-        <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-              </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">
-              data analysis script,<br>
-              reporting system(Rmd),<br>
-              Webapp(shiny),<br>
-              Data visualization,<br>
-              machine learning
-            </p>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-      </div>
-      <!-- ==================================== -->
-      <!-- <div id="progress-bash">
-        <v-progress-linear
-          value="60"
-          height="20"
-          background-color="red lighten-3"
-          color="red lighten-1"
-        >
-          <div>Bash</div>
-        </v-progress-linear>
-        <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">batch script</p></v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-      </div> -->
-      <!-- ==================================== -->
-      <div id="progress-javascript">
-        <v-progress-linear
-          value="50"
-          height="20"
-          background-color="orange lighten-3"
-          color="orange lighten-1"
-        >
-          <div>Javascript</div>
-        </v-progress-linear>
-        <v-expansion-panels flat=true>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              <p><v-icon>far fa-hand-point-right</v-icon>&nbsp;skillsets</p>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p class="text-center">
-              Data visualization(D3.js, C3.js),<br>
-              Jquery,<br>
-              Vue.JS&nbsp;(this page is compiled with Vue.js)
-              </p>
-              </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-      </div>
-      <!-- ==================================== -->
-      <!-- <div id="progress-c">
-        <v-progress-linear
-          value="20"
-          height="20"
-          background-color="blue lighten-3"
-          color="blue lighten-1"
-        >
-          <div>C/C++</div>
-        </v-progress-linear>
-        <p></p>
-      </div> -->
-      <!-- ==================================== -->
-      <!-- <div id="progress-java">
-        <v-progress-linear
-          value="20"
-          height="20"
-          background-color="orange lighten-3"
-          color="orange lighten-1"
-        >
-          <div>Java</div>
-        </v-progress-linear>
-        <p></p>
-      </div> -->
-    </v-card>
-    <!-- Technical Skillsets -->
-    <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="h4 text-center">
-        <v-icon>fas fa-database</v-icon>&nbsp;Databases
-      </p>
-      <p class="text-center">SQLs, Redis, MongoDB, ElasticSearch, Qdrant</p>
-    </v-card>
-    <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="h4 text-center">
-        <v-icon>fas fa-cloud</v-icon>&nbsp;Cloud Computings
-      </p>
-      <p class="text-center">AWS, GCP</p>
+  <v-container fluid class="pa-4">
+    <p class="h2 text-center text-decoration-underline mb-6">Digital Skills</p>
+
+    <v-card class="mx-auto mb-6" color="blue-grey lighten-5" elevation="2">
+      <v-card-text>
+        <div class="text-center mb-4">
+          <p class="h2 primary--text"><v-icon large color="primary">mdi-robot</v-icon> AI & LLM Architecture</p>
+          <p class="subtitle-1">Core specialization and advanced engineering capabilities</p>
+        </div>
+
+        <v-row>
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">Core Frameworks</div>
+            <div class="text-center">
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>LangGraph</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>HuggingFace</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>Ollama</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4">PyTorch</v-chip>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">Specializations</div>
+            <div class="text-center">
+              <v-chip class="ma-1" color="primary" dark><strong>Agentic AI Pipeline</strong></v-chip>
+              <v-chip class="ma-1" color="primary" dark><strong>RAG</strong></v-chip>
+              <v-chip class="ma-1" color="primary" dark>CPU Inference Tuning</v-chip>
+              <v-chip class="ma-1" color="primary" dark>Quantization</v-chip>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">MLOps & Data</div>
+            <div class="text-center">
+              <v-chip class="ma-1" small>MlFlow</v-chip>
+              <v-chip class="ma-1" small>WanDB</v-chip>
+              <v-chip class="ma-1" small>Vector DBs (Qdrant/Chroma)</v-chip>
+            </div>
+          </v-col>
+        </v-row>
+      </v-card-text>
     </v-card>
 
-    <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="h4 text-center">
-        <v-icon>fas fa-desktop</v-icon>&nbsp;OS
-      </p>
-      <p class="text-center">Linux, MacOS, Windows</p>
-    </v-card>
+    <v-row>
 
-    <v-card class="mx-auto" color="white" max-width="1400" elevation="0">
-      <p class="h4 text-center">
-        <v-icon>fas fa-toolbox</v-icon>&nbsp;Other Tools
-      </p>
-      <div class="text-center">
-      <ul style="list-style: none;">
-        <li>Continuous integration tool: Jenkins, Circle-ci, Travis</li>
-        <li>Development tools: VScode, Pycharm, vim, git, Docker, Apache</li>
-        <li>Business tools: MS office, Google office tools, Atlassian confluence</li>
-        <li>Communication tools: Slack</li>
-      </ul>
-      </div>
-    </v-card>
-  </v-card>
+      <v-col cols="12" md="6">
+        <v-card class="fill-height" elevation="1">
+          <v-card-title class="justify-center">
+            <v-icon left>fas fa-code</v-icon> Languages & Frameworks
+          </v-card-title>
+          <v-divider></v-divider>
+
+          <v-card-text>
+            <div class="d-flex align-center mb-3">
+              <v-icon color="blue darken-2" class="mr-2">fab fa-python</v-icon>
+              <span class="h4 mb-0">Python (Expert)</span>
+            </div>
+
+            <div class="pl-2 pl-md-8">
+              <div class="d-flex flex-wrap align-center mb-2">
+                <strong class="caption grey--text text--darken-1 text-uppercase mr-2" style="min-width: 60px;">AI & NLP:</strong>
+                <v-chip-group column class="my-0">
+                  <v-chip small outlined color="blue darken-2">PyTorch</v-chip>
+                  <v-chip small outlined color="blue darken-2">Tensorflow</v-chip>
+                  <v-chip small outlined color="blue darken-2">Scikit-learn</v-chip>
+                  <v-chip small outlined color="blue darken-2">HuggingFace</v-chip>
+                  <v-chip small outlined color="blue darken-2">spaCy</v-chip>
+                </v-chip-group>
+              </div>
+
+              <div class="d-flex flex-wrap align-center mb-2">
+                <strong class="caption grey--text text--darken-1 text-uppercase mr-2" style="min-width: 60px;">Web:</strong>
+                <v-chip-group column class="my-0">
+                  <v-chip small outlined color="blue darken-2">FastAPI</v-chip>
+                  <v-chip small outlined color="blue darken-2">Streamlit</v-chip>
+                  <v-chip small outlined color="blue darken-2">Django/Flask</v-chip>
+                </v-chip-group>
+              </div>
+
+              <div class="d-flex flex-wrap align-center">
+                <strong class="caption grey--text text--darken-1 text-uppercase mr-2" style="min-width: 60px;">Core:</strong>
+                <v-chip-group column class="my-0">
+                  <v-chip small outlined color="blue darken-2">Cython</v-chip>
+                  <v-chip small outlined color="blue darken-2">Packaging (Poetry/uv)</v-chip>
+                </v-chip-group>
+              </div>
+            </div>
+          </v-card-text>
+
+          <v-card-text>
+            <div class="d-flex align-center mb-2">
+              <v-icon color="green darken-2" class="mr-2">fas fa-chart-bar</v-icon>
+              <span class="h4 mb-0">R (Advanced)</span>
+            </div>
+            <div class="pl-8">
+              <v-chip-group column>
+                <v-chip small outlined color="green darken-2">Shiny</v-chip>
+                <v-chip small outlined color="green darken-2">Rmd</v-chip>
+                <v-chip small outlined color="green darken-2">Tidyverse</v-chip>
+              </v-chip-group>
+            </div>
+          </v-card-text>
+
+          <v-card-text>
+            <div class="d-flex align-center mb-2">
+              <v-icon color="orange darken-2" class="mr-2">fab fa-js</v-icon>
+              <span class="h4 mb-0">JavaScript</span>
+            </div>
+            <div class="pl-8">
+              <v-chip-group column>
+                <v-chip small outlined color="orange darken-2">Vue.js</v-chip>
+                <v-chip small outlined color="orange darken-2">D3.js</v-chip>
+              </v-chip-group>
+            </div>
+          </v-card-text>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" md="6">
+        <v-card class="fill-height" elevation="1">
+          <v-card-title class="justify-center">
+            <v-icon left>fas fa-server</v-icon> Infrastructure & Data
+          </v-card-title>
+          <v-divider></v-divider>
+
+          <v-card-text>
+            <p class="subtitle-1 font-weight-bold text-center"><v-icon small>fas fa-cloud</v-icon> Cloud & OS</p>
+            <div class="text-center mb-4">
+              <v-chip class="ma-1">AWS</v-chip>
+              <v-chip class="ma-1">GCP</v-chip>
+              <v-chip class="ma-1">Linux (Ubuntu/CentOS)</v-chip>
+              <v-chip class="ma-1">Mac/Windows</v-chip>
+            </div>
+
+            <p class="subtitle-1 font-weight-bold text-center"><v-icon small>fas fa-database</v-icon> Databases</p>
+            <div class="text-center mb-4">
+              <v-chip class="ma-1" color="teal lighten-5">PostgreSQL/SQL</v-chip>
+              <v-chip class="ma-1" color="teal lighten-5">Redis</v-chip>
+              <v-chip class="ma-1" color="teal lighten-5">MongoDB</v-chip>
+              <v-chip class="ma-1" color="teal lighten-5">ElasticSearch</v-chip>
+              <v-chip class="ma-1" color="teal lighten-5">Qdrant</v-chip>
+              <v-chip class="ma-1" color="teal lighten-5">DuckDB</v-chip>
+            </div>
+
+             <p class="subtitle-1 font-weight-bold text-center"><v-icon small>fas fa-map-marked-alt</v-icon> GIS & Simulation</p>
+            <div class="text-center">
+              <v-chip class="ma-1" small>QGIS</v-chip>
+              <v-chip class="ma-1" small>Kepler.gl</v-chip>
+              <v-chip class="ma-1" small>SUMO (Traffic)</v-chip>
+              <v-chip class="ma-1" small>GeoClaw</v-chip>
+            </div>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+
+    <v-row class="mt-2">
+      <v-col cols="12">
+        <v-card elevation="1">
+          <v-card-text class="d-flex align-center flex-wrap justify-center">
+            <strong class="mr-4 h4 mb-0"><v-icon left>fas fa-toolbox</v-icon> DevOps & Tools:</strong>
+            <v-chip class="ma-1" label small>Docker</v-chip>
+            <v-chip class="ma-1" label small>Jenkins</v-chip>
+            <v-chip class="ma-1" label small>CI/CD</v-chip>
+            <v-chip class="ma-1" label small>Git</v-chip>
+            <v-chip class="ma-1" label small>VSCode/Vim</v-chip>
+            <v-chip class="ma-1" label small>Atlassian Suite</v-chip>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+
+  </v-container>
 </template>
 
 <style scoped>
-/* for font settings */
-@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
-/* for japanese */
-@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
-
-/* font gaegu */
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: cursive;
-}
-
-
-/* For PC */
-.normal-font {
-  font-family: cursive, sans-serif;
-  font-size: 20px;
-}
-
-
-.gaegu-font {
-  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
-  font-size: 20px;
-}
-
-/* For mobile: */
-@media only screen and (max-width: 600px) {
-  .gaegu-font {
-    font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
-    font-size: 16px;
-  }
-
-  .normal-font {
-    font-family: cursive, sans-serif;
-    font-size: 20px;
-  }
-}
 </style>
-
 
 <script>
 export default {};

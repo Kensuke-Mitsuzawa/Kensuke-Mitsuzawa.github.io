@@ -1,5 +1,60 @@
 <template>
-  <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
+<v-row class="mt-6">
+      <v-col cols="12">
+        <p class="h2 text-center text-decoration-underline mb-6">
+          <v-icon large color="grey darken-3" class="mr-2">fas fa-language</v-icon>
+          Languages
+        </p>
+      </v-col>
+
+      <v-col cols="12">
+        <v-row justify="center">
+
+          <v-col
+            v-for="(lang, i) in languages"
+            :key="i"
+            cols="12"
+            sm="6"
+            md="2"
+            lg="2"
+          >
+            <v-card class="fill-height" elevation="2" outlined>
+              <v-card-text class="text-center pa-3">
+
+                <div class="mb-2">
+                  <v-chip
+                    small
+                    :color="lang.color"
+                    text-color="white"
+                    class="font-weight-bold"
+                  >
+                    {{ lang.level }}
+                  </v-chip>
+                </div>
+
+                <div class="h4 font-weight-bold mb-1 grey--text text--darken-3">
+                  {{ lang.name }}
+                </div>
+
+                <div class="caption grey--text mb-3" style="height: 20px;">
+                  {{ lang.desc }}
+                </div>
+
+                <v-progress-linear
+                  :value="lang.percent"
+                  :color="lang.color"
+                  height="6"
+                  rounded
+                ></v-progress-linear>
+
+              </v-card-text>
+            </v-card>
+          </v-col>
+
+        </v-row>
+      </v-col>
+    </v-row>
+  <!-- <v-card class="mx-auto" color="white" max-width="1500" elevation="0">
     <p class="h2 text-center">
       <v-icon large=true>fas fa-language</v-icon>&nbsp;{{ $t('languages.title') }}
     </p>
@@ -47,7 +102,7 @@
           </v-progress-circular>
         </v-flex>
     </v-layout>
-  </v-card>
+  </v-card> -->
 </template>
 
 
@@ -110,3 +165,49 @@
 }
 
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      languages: [
+        {
+          name: 'Japanese',
+          level: 'Native',
+          desc: 'Native Speaker',
+          percent: 100,
+          color: 'teal darken-1'
+        },
+        {
+          name: 'English',
+          level: 'Business',
+          desc: 'Daily Professional Use',
+          percent: 90,
+          color: 'blue darken-2'
+        },
+        {
+          name: 'German',
+          level: 'B2',
+          desc: 'Intermediate',
+          percent: 65,
+          color: 'orange darken-2'
+        },
+        {
+          name: 'French',
+          level: 'B1',
+          desc: 'Lower Intermediate',
+          percent: 45,
+          color: 'lime darken-2'
+        },
+        {
+          name: 'Persian',
+          level: 'A1',
+          desc: 'Beginner',
+          percent: 20,
+          color: 'grey'
+        }
+      ]
+    }
+  }
+};
+</script>

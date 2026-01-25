@@ -6,13 +6,12 @@
           <p class="h2 text-center">
             <v-icon large=true>fas fa-envelope-open-text</v-icon>&nbsp;Contact
           </p>
-          <div class="text-center" id="contact-email">
+          <div class="normal-font text-center" id="contact-email">
             <p class="text-center h4">email</p>
             <p>kensuke.mit xx gmail.com</p>
             <p>xx = at_mark</p>
           </div>
-          <div id="contact-others" class="text-center">
-            <p class="text-center h4">Others</p>
+          <div id="contact-others" class="normal-font text-center">
             <p>
               <a
                 href="https://www.linkedin.com/in/kensuke-mitsuzawa-134a728b/"
