@@ -119,12 +119,22 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 /* for japanese */
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
 
 /* .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: cursive;
 } */
+
+body {
+  /* This uses Inter if available, otherwise falls back to system fonts */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748; /* Dark grey is easier on eyes than pure black */
+  -webkit-font-smoothing: antialiased;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: cursive;
@@ -154,17 +164,21 @@ h3 { font-size: 1.75rem; }
 }
 
 
+.caligraphy-font {
+  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
+}
+
 /* For PC */
 .normal-font {
-  font-family: cursive, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
 }
 
 
-.gaegu-font {
+/* .gaegu-font {
   font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
   font-size: 20px;
-}
+} */
 
 /* For mobile: */
 @media only screen and (max-width: 600px) {
@@ -174,7 +188,7 @@ h3 { font-size: 1.75rem; }
   }
 
   .normal-font {
-    font-family: cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
   }
 }

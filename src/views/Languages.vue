@@ -172,35 +172,35 @@ export default {
     return {
       languages: [
         {
-          name: 'Japanese',
+          name: '🇯🇵 Japanese',
           level: 'Native',
           desc: 'Native Speaker',
           percent: 100,
           color: 'teal darken-1'
         },
         {
-          name: 'English',
+          name: '🇬🇧 English',
           level: 'Business',
           desc: 'Daily Professional Use',
           percent: 90,
           color: 'blue darken-2'
         },
         {
-          name: 'German',
+          name: '🇩🇪 German',
           level: 'B2',
           desc: 'Intermediate',
           percent: 65,
           color: 'orange darken-2'
         },
         {
-          name: 'French',
+          name: '🇫🇷 French',
           level: 'B1',
           desc: 'Lower Intermediate',
           percent: 45,
           color: 'lime darken-2'
         },
         {
-          name: 'Persian',
+          name: '🇮🇷 Persian',
           level: 'A1',
           desc: 'Beginner',
           percent: 20,
