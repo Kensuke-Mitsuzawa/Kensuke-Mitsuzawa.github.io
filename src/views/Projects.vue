@@ -64,7 +64,72 @@
               </v-expansion-panel-content>
             </v-expansion-panel>
           </v-expansion-panels>
-        </div>
+          </div>
+
+          <div id="project-TPU-training-2023">
+            <v-expansion-panels flat=true>
+            <v-expansion-panel>
+              <v-expansion-panel-header>
+                <p class="text-h6 text-center">
+                  <v-icon>fas fa-microchip</v-icon>
+                  Large-Scale LLM Pre-training on TPU Infrastructure
+                </p>
+              </v-expansion-panel-header>
+              <v-expansion-panel-content>
+                <v-card color="white" elevation="0">
+                  <p class="text-h6 font-italic">nondisclosure</p>
+                  <p class="text">2023</p>
+
+                  <div id="project-tpu-background">
+                    <p class="text-h5 font-italic">Background and Objectives</p>
+                    <p>
+                      The research team aimed to pre-train a <strong>Longformer</strong> model from scratch to address long-context limitations in existing LLMs.
+                    </p>
+                    <p>
+                      However, the project faced significant resource constraints. The budget was strictly limited, and high-memory GPU instances on the cloud were prohibitively expensive and scarce.
+                      We needed a solution that could handle the massive computational load of pre-training without exceeding the financial allocation.
+                    </p>
+                  </div>
+
+                  <div id="project-tpu-contribution">
+                    <p class="text-h5 font-italic">My Contribution</p>
+                    <p>
+                      I acted as the Lead Engineer, responsible for the technical feasibility study, infrastructure proposal, and full-stack implementation of the training pipeline.
+                    </p>
+
+                    <p class="text-h6 font-italic">Strategic Infrastructure & Cost Optimisation:</p>
+                    <p>
+                      To bypass the GPU bottleneck, I proposed and architected a training environment based on <strong>Google Cloud TPUs (v4-8)</strong> using <strong>Pre-emptible instances</strong>.
+                    </p>
+                    <p>
+                      I implemented a robust checkpointing system to handle the volatile nature of pre-emptible instances,
+                      ensuring training continuity. This strategy reduced the computational costs significantly compared to standard GPU clusters.
+                    </p>
+
+                    <p class="text-h6 font-italic">PyTorch XLA Implementation:</p>
+                    <p>
+                      I engineered the codebase migration from standard PyTorch to <strong>PyTorch XLA</strong> to bridge the compatibility gap between the model and the TPU hardware.
+                    </p>
+                    <p>
+                      This involved optimising tensor operations for XLA compilation and managing distributed training across 8 TPU cores to maximise throughput.
+                    </p>
+
+                    <p class="text-h6 font-italic">MLOps & Resource Management:</p>
+                    <p>
+                      I integrated <strong>MLflow</strong> for experiment tracking and managed the data pipeline using GCP Cloud Buckets to ensure high-speed I/O for the TPU.
+                      I also maintained strict cost governance, monitoring burn rates to keep the project within budget.
+                    </p>
+                  </div>
+
+                  <p class="text-h5 font-italic">Keywords</p>
+                  <p>
+                    High-Performance Computing (GCP TPU v4), PyTorch XLA, Cost Optimisation (Pre-emptible), LLM Pre-training (Longformer), DevOps (MLflow)
+                  </p>
+                </v-card>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            </v-expansion-panels>
+          </div>
 
           <div id="project-2020">
             <v-expansion-panels flat=true>

@@ -3,7 +3,7 @@
     <p class="h2 text-center text-decoration-underline mb-6">Digital Skills</p>
 
     <v-card class="mx-auto mb-6" color="blue-grey lighten-5" elevation="2">
-      <v-card-text>
+      <!-- <v-card-text>
         <div class="text-center mb-4">
           <p class="h2 primary--text"><v-icon large color="primary">mdi-robot</v-icon> AI & LLM Architecture</p>
           <p class="subtitle-1">Core specialization and advanced engineering capabilities</p>
@@ -36,6 +36,45 @@
               <v-chip class="ma-1" small>MlFlow</v-chip>
               <v-chip class="ma-1" small>WanDB</v-chip>
               <v-chip class="ma-1" small>Vector DBs (Qdrant/Chroma)</v-chip>
+            </div>
+          </v-col>
+        </v-row>
+      </v-card-text> -->
+      <v-card-text>
+        <div class="text-center mb-4">
+          <p class="h2 primary--text"><v-icon large color="primary">mdi-robot</v-icon> AI & LLM Architecture</p>
+          <p class="subtitle-1">Core specialization and advanced engineering capabilities</p>
+        </div>
+
+        <v-row>
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">Core Frameworks</div>
+            <div class="text-center">
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>LangGraph</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>HuggingFace</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>PyTorch XLA</strong></v-chip>
+              <v-chip class="ma-1" color="white" text-color="blue-grey darken-4"><strong>PyTorch</strong></v-chip>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">Specializations</div>
+            <div class="text-center">
+              <v-chip class="ma-1" color="primary" dark><strong>Agentic AI Pipeline</strong></v-chip>
+              <v-chip class="ma-1" color="primary" dark><strong>RAG</strong></v-chip>
+              <v-chip class="ma-1" color="primary" dark><strong>training-on-TPU</strong></v-chip>
+              <v-chip class="ma-1" color="primary" dark>CPU Inference Tuning</v-chip>
+              <v-chip class="ma-1" color="primary" dark>Quantization</v-chip>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div class="font-weight-bold mb-2 text-center">MLOps & Data</div>
+            <div class="text-center">
+              <v-chip class="ma-1" small>MlFlow</v-chip>
+              <v-chip class="ma-1" small>WanDB</v-chip>
+              <v-chip class="ma-1" small>Vector DBs (Qdrant/Chroma)</v-chip>
+              <v-chip class="ma-1" small>GCP Cloud Bucket</v-chip>
             </div>
           </v-col>
         </v-row>
