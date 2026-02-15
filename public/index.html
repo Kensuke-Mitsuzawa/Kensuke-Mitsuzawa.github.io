@@ -14,4 +14,24 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+<script>
+  window.MathJax = {
+    tex: {
+      // This allows the use of \( \) for inline and \[ \] for display math
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      // Ensures MathJax doesn't try to render everything before Vue is ready
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    startup: {
+      // Prevents automatic typesetting on the initial load 
+      // since Vue will trigger it manually via mounted()
+      typeset: false 
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
 </html>

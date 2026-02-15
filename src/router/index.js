@@ -9,6 +9,7 @@ import PortfolioGIS from '../views/portfolios/Portfolio-GIS.vue';
 import PythonPackages from '../views/portfolios/PythonPackages.vue';
 import LLMEngineering from '../views/portfolios/LLMEngineering.vue';
 import LangDiaryAgentic from '../views/portfolios/LangDiaryAgentic.vue';
+import LlmAnalysisExampleMmdAndCka from '../views/portfolios/LlmAnalysisExampleMmdAndCka.vue';
 import MuSpNa from '../views/portfolios/MuSpNa.vue';
 import MMDPaperDemoCatDog from '../views/MmdPaperDemoCatDog';
 import MmdPaperDemoParticleDNN from '../views/MmdPaperDemoParticleDNN';
@@ -54,6 +55,11 @@ const routes = [
     path: '/portfolio/llm-engieering/lang-diary-agentic',
     name: 'LangDiaryAgentic',
     component: LangDiaryAgentic,
+  },
+  {
+    path: '/portfolio/llm-engieering/llm-analysis-example-mmd-and-cka',
+    name: 'LlmAnalysisExampleMmdAndCka',
+    component: LlmAnalysisExampleMmdAndCka,
   },
   {
     path: '/portfolio/MuSpNa',

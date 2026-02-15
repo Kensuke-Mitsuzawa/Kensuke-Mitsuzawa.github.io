@@ -13,6 +13,19 @@
 
         <v-row class="mb-12 align-center">
             <v-col cols="12" md="4">
+            <v-img src="/portfolio/gis-project-2-thumb.jpg" class="rounded-lg shadow-sm"></v-img>
+            </v-col>
+            <v-col cols="12" md="8">
+            <h3 class="text-h4 mb-2">LLM Compression: A Structural Integrity Audit</h3>
+            <p>Statistical comparison tools of visualizing the internal hidden-states of LLMs before and after the model compression.</p>
+            <v-btn color="orange darken-2" outlined to="/portfolio/llm-engieering/llm-analysis-example-mmd-and-cka">Read Case Study</v-btn>
+            </v-col>
+        </v-row>
+
+        <v-divider class="mb-12"></v-divider>
+
+        <v-row class="mb-12 align-center">
+            <v-col cols="12" md="4">
             <v-img src="/portfolio/gis-project-1-thumb.jpg" class="rounded-lg shadow-sm"></v-img>
             </v-col>
             <v-col cols="12" md="8">
@@ -21,19 +34,6 @@
             <v-btn color="orange darken-2" outlined to="/portfolio/llm-engieering/lang-diary-agentic">Read Case Study</v-btn>
             </v-col>
         </v-row>
-
-        <v-divider class="mb-12"></v-divider>
-
-        <!-- <v-row class="mb-12 align-center">
-            <v-col cols="12" md="4">
-            <v-img src="/portfolio/gis-project-2-thumb.jpg" class="rounded-lg shadow-sm"></v-img>
-            </v-col>
-            <v-col cols="12" md="8">
-            <h3 class="text-h4 mb-2">Variable selection on traffic simulation</h3>
-            <p>In comparing two simulation scenarios, it identifies roads where high discrepancies are detected.</p>
-            <v-btn color="orange darken-2" outlined to="/publications/mmd-paper-demo-sumo-most">Read Case Study</v-btn>
-            </v-col>
-        </v-row> -->
         </v-container>
     </v-main>
     </v-app>
