@@ -399,7 +399,13 @@
 </template>
 
 <script>
+import HeaderBar from '@/views/HeaderBar';
+
 export default {
+  name: 'App',
+  components: {
+    HeaderBar,
+  },
   data() {
     return {
       excelFileUrl: '/mmd-demo/sumo-monaco/variable_selection_results.xlsx',

@@ -154,38 +154,80 @@ export default {
 };
 </script>
 
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 /* for japanese */
-@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 
-/* font gaegu */
-.h1, .h2, .h3, .h4, .h5, .h6 {
+
+/* .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: cursive;
+} */
+
+body {
+  /* This uses Inter if available, otherwise falls back to system fonts */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748; /* Dark grey is easier on eyes than pure black */
+  -webkit-font-smoothing: antialiased;
 }
 
-.normal-font {
-  font-family: cursive, sans-serif;
-  font-size: 20px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: cursive;
+  font-weight: bold; /* Optional: Ensure they stay bold */
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+.h1 {
+  font-family: cursive;
+  font-size: 28px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
+}
+
+.h2 {
+  font-family: cursive;
+  font-size: 24px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
+}
+
+.h3 {
+  font-family: cursive;
+  font-size: 21px !important; /* Forces the size over Vuetify's default */
+  line-height: 1.2;
+}
+
+
+.caligraphy-font {
+  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
 }
 
 /* For PC */
-.gaegu-font {
-  font-family: 'Gaegu', cursive, sans-serif;
+.normal-font {
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
 }
+
+
+/* .gaegu-font {
+  font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
+  font-size: 20px;
+} */
 
 /* For mobile: */
 @media only screen and (max-width: 600px) {
   .gaegu-font {
-    font-family: 'Gaegu', cursive, sans-serif;
+    font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
     font-size: 16px;
   }
 
   .normal-font {
-    font-family: cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
   }
 }
+
 </style>
