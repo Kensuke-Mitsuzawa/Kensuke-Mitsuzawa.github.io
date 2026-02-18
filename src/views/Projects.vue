@@ -438,17 +438,4 @@ export default {
 
 
 <style>
-
-/* For PC */
-.text {
-  font-size: 20px;
-}
-
-/* For mobile: */
-@media only screen and (max-width: 600px) {
-  .text {
-    font-size: 16px;
-  }
-}
-
 </style>

@@ -133,55 +133,5 @@ export default {
 };
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
-/* for japanese */
-@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
-
-
-.h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.h3 {
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-
-/* font gaegu */
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: 'Gaegu', cursive;
-}
-
-/* For PC */
-.normal-font {
-  font-family: cursive, sans-serif;
-  font-size: 20px;
-}
-
-
-.gaegu-font {
-    font-family: 'Gaegu', cursive, sans-serif;
-    font-size: 20px;
-}
-
-/* For mobile: */
-@media only screen and (max-width: 600px) {
-    .gaegu-font {
-        font-family: 'Gaegu', cursive, sans-serif;
-        font-size: 16px;
-    }
-
-    .normal-font {
-    font-family: cursive, sans-serif;
-    font-size: 20px;
-    }
-}
 </style>
 
