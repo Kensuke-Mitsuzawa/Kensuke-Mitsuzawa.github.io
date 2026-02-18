@@ -137,7 +137,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: cursive;
+  font-family: sans-serif;
   font-weight: bold; /* Optional: Ensure they stay bold */
 }
 
@@ -146,19 +146,19 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.75rem; }
 
 .h1 {
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 28px !important; /* Forces the size over Vuetify's default */
   line-height: 1.2;
 }
 
 .h2 {
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 24px !important; /* Forces the size over Vuetify's default */
   line-height: 1.2;
 }
 
 .h3 {
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 21px !important; /* Forces the size over Vuetify's default */
   line-height: 1.2;
 }
@@ -183,7 +183,7 @@ h3 { font-size: 1.75rem; }
 /* For mobile: */
 @media only screen and (max-width: 600px) {
   .gaegu-font {
-    font-family: 'Gaegu', 'Yomogi', cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
   }
 

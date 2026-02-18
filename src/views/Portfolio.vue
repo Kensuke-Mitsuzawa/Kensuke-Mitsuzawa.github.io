@@ -36,6 +36,25 @@
           </v-col>
 
           <v-col cols="12" md="6" lg="3">
+            <v-card class="mx-auto fill-height d-flex flex-column" hover to="/portfolio/llm-engieering/timesfm-xai-analysis">
+              <v-img height="200" src="/portfolio/llm_cover.jpg" class="white--text align-end">
+                <v-card-title class="pb-0" style="background: rgba(0,0,0,0.4); width: 100%;">Time-Series & Predictive AI</v-card-title>
+              </v-img>
+              <v-card-text class="text--primary flex-grow-1">
+                <v-chip small color="blue lighten-4" class="mb-2">Time-Series</v-chip>
+                <v-chip small color="blue lighten-4" class="mb-2">Foundation Models (TimesFM)</v-chip>
+                <v-chip small color="blue lighten-4" class="mb-2">XAI</v-chip>
+                <div class="font-weight-bold">Complex Systems & Surrogate Modeling</div>
+                <p class="caption mt-2">Applying transformer-based foundation models (TimesFM) and Explainable AI to forecast dynamics and detect anomalies in high-dimensional physical networks.</p>
+              </v-card-text>
+              <v-divider />
+              <v-card-actions>
+                <v-btn text color="blue darken-2">VIEW PROJECTS</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" md="6" lg="3">
             <v-card class="mx-auto fill-height d-flex flex-column" hover to="/portfolio/python-packages">
               <v-img height="200" src="/portfolio/oss_cover.jpg" class="white--text align-end">
                 <v-card-title class="pb-0" style="background: rgba(0,0,0,0.4); width: 100%;">OSS Library</v-card-title>
