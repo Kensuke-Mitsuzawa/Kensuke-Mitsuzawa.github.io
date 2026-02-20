@@ -68,6 +68,15 @@
                             $t=0$, we quantify the stability of every sensor in the grid by comparing future predicted
                             states.
                         </p>
+                        <v-card variant="outlined" class="mb-8 p-4 bg-grey-lighten-5">
+                        <v-img src="portfolio/timesfm-water-network-prediction/water-network.png"
+                            alt="water-network" max-width="800"
+                            class="mx-auto rounded shadow-sm"></v-img>
+                        <div class="text-caption text-grey italic mb-2 text-center">
+                            Water pipe-network from the BattLeDIM 2020 dataset (Vrachimis, S. G. et al., 2020), showing installed sensors (squares).
+                            AMR and Pressure sensors are mounted at nodes; some nodes host both types. Red triangles mark pipe segments with programmed leaks. Leaks occur at different times.
+                        </div>
+                        </v-card>
                     </section>
 
                     <section id="math" class="mb-10">
