@@ -12,6 +12,7 @@ import LangDiaryAgentic from '../views/portfolios/LangDiaryAgentic.vue';
 import LlmAnalysisExampleMmdAndCka from '../views/portfolios/LlmAnalysisExampleMmdAndCka.vue';
 import WaterNetworkPredictionTimesFM from '../views/portfolios/WaterNetworkPredictionTimesFM.vue';
 import MuSpNa from '../views/portfolios/MuSpNa.vue';
+import AgenticAICka from '../views/portfolios/AgenticAICka.vue';
 import MMDPaperDemoCatDog from '../views/MmdPaperDemoCatDog';
 import MmdPaperDemoParticleDNN from '../views/MmdPaperDemoParticleDNN';
 import MmdPaperDemoSumoMost from '../views/MmdPaperDemoSumoMost';
@@ -62,6 +63,11 @@ const routes = [
     path: '/portfolio/llm-engieering/llm-analysis-example-mmd-and-cka',
     name: 'LlmAnalysisExampleMmdAndCka',
     component: LlmAnalysisExampleMmdAndCka,
+  },
+  {
+    path: '/portfolio/llm-engieering/agentic-ai-cka',
+    name: 'AgenticAICka',
+    component: AgenticAICka,
   },
   {
     path: '/portfolio/llm-engieering/timesfm-xai-analysis',
