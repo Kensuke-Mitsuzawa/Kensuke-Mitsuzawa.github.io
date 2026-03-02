@@ -29,7 +29,7 @@
                                 Evaluating LLM Orchestration Objectively using Hilbert-Schmidt Independence Criterion
                                 (HSIC).
                                 This project utilizes traditional kernel methods, "Centered Kernel Alignment
-                                (CKA)".
+                                (CKA)" (Kornblith et al., 2019).
                                 By treating each agent's natural language output as a semantic feature and converting it
                                 into a continuous embedding space, we mathematically measure the statistical dependence
                                 between agents. This provides a quantitative dependency visualization, allowing
@@ -226,6 +226,12 @@ synthesizer_template = """You are an expert Synthesizer Agent. Your task is to p
                             </v-expansion-panel>
                         </v-expansion-panels>
                     </v-card>
+                </section>
+
+                <section id="reference">
+                    <h2 class="text-h4 font-weight-bold mb-6">Reference</h2>
+                    <p>Kornblith, S., et al. (2019). Similarity of Neural Network Representations Revisited. ICML.
+                    </p>
                 </section>
 
             </v-container>
