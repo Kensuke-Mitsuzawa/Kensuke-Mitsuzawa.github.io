@@ -20,7 +20,7 @@
       <v-icon>fas fa-briefcase</v-icon>
     </v-btn>
 
-    <v-btn class="hidden-sm-and-down" to="/teaching-and-talks">Teaching & Talks</v-btn>
+    <v-btn class="hidden-sm-and-down" to="/teaching-and-talks">Talks & Presentations</v-btn>
     <v-btn class="hidden-md-and-up" to="/teaching-and-talks">
       <v-icon>fas fa-newspaper</v-icon>
     </v-btn>
