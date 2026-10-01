@@ -56,9 +56,9 @@
       <v-col cols="auto"><v-divider></v-divider></v-col>
       <Languages></Languages>
       <v-col cols="auto"><v-divider></v-divider></v-col>
-      <Education></Education>
-      <v-col cols="auto"><v-divider></v-divider></v-col>
       <WorkExperience></WorkExperience>
+      <v-col cols="auto"><v-divider></v-divider></v-col>
+      <Education></Education>
       <v-col cols="auto"><v-divider></v-divider></v-col>
       <Contact></Contact>
       </div>

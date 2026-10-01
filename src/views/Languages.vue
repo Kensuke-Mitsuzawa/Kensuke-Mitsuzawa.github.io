@@ -175,13 +175,6 @@ export default {
           percent: 45,
           color: 'lime darken-2'
         },
-        {
-          name: '🇮🇷 Persian',
-          level: 'A1',
-          desc: 'Beginner',
-          percent: 20,
-          color: 'grey'
-        }
       ]
     }
   }

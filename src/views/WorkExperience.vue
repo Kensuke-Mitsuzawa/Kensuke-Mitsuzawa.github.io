@@ -11,12 +11,24 @@
             <v-row justify="space-between">
               <v-col cols="1"></v-col>
               <v-col cols="5" class="text-left">
+                <p class="font-weight-black">Senior Research Engineer</p>
+                <p class="font-italic">NEC Laboratories Europe</p>
+              </v-col>
+              <v-col cols="5" class="text-center">
+                <p>Heidelberg, Germany</p>
+                <p>October 2026 - Present</p>
+              </v-col>
+            </v-row>
+
+            <v-row justify="space-between">
+              <v-col cols="1"></v-col>
+              <v-col cols="5" class="text-left">
                 <p class="font-weight-black">Postdoctoral researcher</p>
                 <p class="font-italic">Université Côte d’Azur / CNRS</p>
               </v-col>
               <v-col cols="5" class="text-center">
                 <p>Nice, France</p>
-                <p>January 2025 - </p>
+                <p>January 2025 - September 2026</p>
               </v-col>
             </v-row>
 
